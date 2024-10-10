@@ -1,0 +1,342 @@
+.formBox {
+  margin-top: 89px !important;
+  color: #f4622a;
+}
+
+.sideImage {
+  background-image: url(https://vcana-website-assets.s3.amazonaws.com/images/bnr13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 90%;
+}
+
+.rectangleDiv {
+  position: relative;
+  background-color: #fafafa;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  width: 90%;
+  padding: 10px 20px 30px;
+}
+
+.rectangleDiv h2 {
+  font-size: 23px !important;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #121212 !important;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.rectangleDiv li {
+  list-style: none;
+  text-align: left;
+  padding: 21px 0px !important;
+  border-bottom: 1.25px solid #d9d9d9;
+  font-size: 17px !important;
+  font-weight: 500 !important;
+  line-height: 23px;
+  color: #828282;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.rectangleDiv a {
+  list-style: none;
+  text-align: center;
+  margin: 7px 0px !important;
+  border-bottom: 0px solid #0e0e0e;
+  color: #828282;
+  text-align: left;
+  line-height: 37px;
+  text-transform: uppercase;
+}
+
+.Sidebar {
+  padding: 20px !important;
+}
+
+.sideImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 0 2000px #3b3b7e4d !important;
+}
+
+.sideImage a {
+  background-color: #f2b721 !important;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 500;
+  margin-top: 10px;
+  padding: 18px 35px;
+}
+
+.sideImage h4 {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.input {
+  padding-bottom: 15px;
+}
+
+.incontrol {
+  height: 4.5rem !important;
+  border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  -ms-border-radius: 0px !important;
+  -o-border-radius: 0px !important;
+}
+
+.formBtn {
+  border: none !important;
+  background: #f2b721;
+  font-size: 19px;
+  padding: 16px 31px;
+  font-weight: 500;
+  border-radius: 0px;
+}
+
+.rectangleDiv form {
+  margin-top: 30px;
+}
+
+.rectangleDiv hr {
+  margin: 0px !important;
+  border: 0 !important;
+  height: 4px !important;
+  background: linear-gradient(
+    to right,
+    #f2b721 0% 25%,
+    #f2b721 25% 55%,
+    #d9d9d9 55% 80%
+  );
+  width: 76% !important;
+  opacity: 1.1 !important;
+  margin-top: -1px !important;
+}
+.sideImage h4 {
+  color: white !important;
+}
+.hrdetail hr {
+  height: 4px !important;
+  background: linear-gradient(
+    to right,
+    #f2b721 0% 25%,
+    #f2b721 25% 55%,
+    #d9d9d9 55% 80%
+  );
+  width: 50%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .rectangleDiv h2 {
+    font-size: 18px;
+  }
+
+  .rectangleDiv a {
+    font-size: 14px !important;
+    line-height: 20px;
+  }
+  .rectangleDiv {
+    padding: 10px 8px 40px 15px;
+  }
+
+  .rectangleDiv li {
+    padding: 16px 0px !important;
+    font-size: 12px !important;
+    line-height: 23px !important;
+    color: #000000 !important;
+  }
+
+  .incontrol {
+    height: 1rem !important;
+  }
+
+  .formBtn {
+    font-size: 18px;
+    display: block;
+    padding: 12px 26px;
+    margin: auto;
+  }
+
+  .sideImage {
+    height: 350px;
+  }
+
+  .sideImage a {
+    font-size: 17px;
+    display: block;
+    padding: 12px 26px;
+  }
+
+  .sideImage h4 {
+    font-size: 25px !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .rectangleDiv h2 {
+    font-size: 21px !important;
+    line-height: 32px !important;
+  }
+  .incontrol {
+    height: 30px !important;
+    font-size: 17px !important;
+  }
+  .card1 button {
+    font-size: 14px !important;
+  }
+  .rectangleDiv {
+    padding: 10px 15px 40px;
+  }
+  .formBtn {
+    font-size: 15px;
+  }
+  .input textarea {
+    height: 140px !important;
+    font-size: 16px !important;
+  }
+}
+@media (min-width: 1365px) and (max-width: 1540px) {
+  .rectangleDiv h2 {
+    font-size: 20px !important;
+  }
+  .formBtn {
+    font-size: 14px;
+    padding: 10px 21px;
+  }
+  .incontrol {
+    height: 40px !important;
+    font-size: 15px !important;
+  }
+  .rectangleDiv {
+    position: relative;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding: 10px 12px 40px;
+  }
+  .rectangleDiv a {
+    font-size: 12px;
+    line-height: 10px;
+  }
+  .input textarea {
+    height: 120px !important;
+    font-size: 15px !important;
+  }
+  .rectangleDiv a {
+    font-size: 12px;
+    line-height: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .rectangleDiv {
+    margin: 0 auto !important;
+    width: 100%;
+    margin-bottom: 20px !important;
+    margin-top: 35px !important;
+    display: none;
+  }
+  .rectangleDiv h2 {
+    font-size: 18px !important;
+  }
+  .card1 button {
+    text-align: left !important;
+    font-size: 14px !important;
+  }
+  .sideImage {
+    margin: 0px auto;
+    width: 94%;
+    margin-top: 20px !important;
+  }
+  .incontrol {
+    height: 40px !important;
+    font-size: 15px !important;
+  }
+  .input textarea {
+    height: 120px !important;
+    font-size: 15px !important;
+  }
+
+  .formBtn {
+    font-size: 14px !important;
+    padding: 8px !important;
+  }
+}
+
+/* test css li hover */
+.none1 {
+  height: 0px;
+  transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  /* visibility: hidden; */
+}
+
+.block:hover .none1 {
+  height: 100px;
+  /* visibility: visible; */
+  transition: 9 s ease-in-out;
+  -webkit-transition: 9 s ease-in-out;
+  -moz-transition: 9 s ease-in-out;
+  -ms-transition: 9 s ease-in-out;
+  -o-transition: 9 s ease-in-out;
+}
+
+.demo {
+  /*display:none -like behavior achieved by also reducing the height to 0*/
+  visibility: hidden;
+  height: 0;
+
+  /*mouse-out transition*/
+  transition: height 1s, /*normally transition height*/ visibility 0s 0ms; /*delay transition to "hidden"*/
+}
+
+.dropdonto:hover .demo {
+  height: 100px;
+  visibility: visible;
+
+  transition: height 1s, /*normally transition height*/ visibility 0s; /*make "visible" instantly*/
+}
+.demo {
+  width: 300px;
+  height: 5px;
+  padding: 20px;
+}
+
+#hidden {
+  overflow: hidden;
+}
+
+.dropdonto span {
+  font-size: 58px;
+  color: #f2b721;
+}
+.dropdonto p {
+  text-align: left;
+  line-height: 18px !important;
+  margin-left: 20px;
+  margin-top: -12px;
+}
+.dropdonto b {
+  font-size: 22px;
+  color: #234093;
+  font-weight: 600;
+  position: relative;
+  top: 4px;
+  left: 14px;
+}
+
+.incontrol::placeholder,
+.textareaa::placeholder {
+  font-size: 12px !important;
+}

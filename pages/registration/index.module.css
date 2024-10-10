@@ -1,0 +1,283 @@
+.mainBg {
+  background: #e8e8e8;
+}
+
+.registrationMain {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.formstyle {
+  background: #161e31;
+  padding: 50px;
+  border-radius: 10px;
+  padding-bottom: 80px;
+  padding-left: 8%;
+}
+.formstyle input {
+  font-size: 17px;
+  padding: 10px;
+  font-weight: 500;
+  color: #a4a4a4;
+  margin-top: 20px;
+  /* text-transform: capitalize; */
+  border-radius: 3px;
+}
+
+.formstyle h4 {
+  font-family: Poppins;
+  font-size: 34.94px !important;
+  font-weight: 600;
+  line-height: 52.41px;
+  text-align: left;
+  color: #fff !important;
+}
+
+.formstyle p {
+  font-family: Poppins;
+  font-size: 21.84px;
+  font-weight: 300;
+  line-height: 32.76px;
+  text-align: left;
+  color: #f8ac1b;
+}
+
+.formstyle select {
+  margin: 10px;
+  width: 100%;
+  font-size: 18px !important;
+  padding: 9px;
+  margin-left: 0;
+  margin-top: 0px;
+}
+.formstyle textarea {
+  width: 100%;
+  border-radius: 3px;
+}
+.textarya {
+  margin-top: 224px;
+}
+.forminput input {
+  padding: 0px;
+  color: #fff;
+}
+.formstyle button {
+  text-align: right;
+  width: auto;
+  float: right;
+  background: #f8ac1b;
+  border: navajowhite;
+  font-weight: 600;
+  padding: 10px 32px;
+}
+.mainBg img {
+  z-index: 1;
+  position: relative;
+}
+
+.dropdownbtn button {
+  width: 100%;
+  text-align: left;
+  background-color: #fff;
+  color: #161e31;
+  font-weight: 600;
+  margin-top: 23px;
+  margin-bottom: 0px;
+  font-size: 16px !important;
+  padding-left: 12px;
+  border-radius: 3px;
+}
+
+.dropdownbtn button:hover {
+  background-color: #fff;
+  color: #686868;
+}
+
+.dropdownbtn .dropdown-menu.show {
+  width: 91% !important;
+}
+
+.phoneInput {
+  display: flex;
+}
+
+@media (min-width: 1020px) and (max-width: 1280px) {
+  .formstyle textarea {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dropdownbtn button {
+    width: 100%;
+    margin-left: 20px;
+    font-size: 14px !important;
+    position: relative;
+    left: 10px;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-top: -8px;
+  }
+
+  .mainBg img {
+    z-index: 1;
+    position: relative;
+    width: 96%;
+    height: auto;
+  }
+  .formstyle1 {
+    width: 100%;
+    display: block;
+    margin: 10px;
+  }
+  .formstyle textarea {
+    width: 100%;
+    margin: 10px;
+  }
+  .formstyle select {
+    margin-bottom: 0px;
+    width: 100%;
+    font-size: 14px !important;
+  }
+  .formstyle {
+    background: #161e31;
+    padding: 20px;
+    border-radius: 10px;
+    padding-bottom: 80px;
+    padding-left: 0%;
+  }
+  .formstyle h4 {
+    font-size: 24.94px !important;
+    margin-left: 10px;
+  }
+  .formstyle p {
+    font-size: 19px;
+    margin-left: 10px;
+  }
+  .formstyle label {
+    font-size: 11px !important;
+    margin-top: 2px;
+  }
+  .texta label {
+    margin-left: 13px !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .mainBg img {
+    z-index: 1;
+    position: relative;
+    width: 96%;
+    height: auto;
+  }
+  .formstyle1 {
+    width: 100%;
+    display: block;
+    margin: 10px;
+  }
+  .dropdownbtn button {
+    width: 100%;
+    font-size: 12px !important;
+    position: relative;
+    left: 11px;
+  }
+  .formstyle select {
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px !important;
+  }
+  .textarya {
+    margin-left: 10px;
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1440px) {
+  .mainBg img {
+    z-index: 1;
+    position: relative;
+    width: 96%;
+    height: auto;
+  }
+
+  .formstyle1 {
+    width: 100%;
+    display: block;
+    margin: 10px;
+  }
+  .formstyle textarea {
+    width: 100%;
+    margin: 10px;
+  }
+  .formstyle select {
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px !important;
+  }
+  .formstyle {
+    background: #161e31;
+    padding: 20px;
+    border-radius: 10px;
+    padding-bottom: 80px;
+    padding-left: 0%;
+  }
+  .formstyle h4 {
+    font-size: 24.94px !important;
+    margin-left: 10px;
+  }
+  .formstyle p {
+    font-size: 19px;
+    margin-left: 10px;
+  }
+  .formstyle label {
+    font-size: 12px !important;
+    margin-top: 2px;
+  }
+}
+
+.formresss .forminput label {
+  color: #fff;
+}
+
+.country {
+  width: 20%;
+  margin-right: 2%;
+}
+.number {
+  width: 78%;
+}
+@media (min-width: 300px) and (max-width: 979px) {
+  .country {
+    width: 40% !important;
+    margin-right: 2%;
+  }
+  .number {
+    width: 58% !important;
+  }
+  .registrationMain label {
+    margin-left: 14px !important;
+  }
+  .texta label {
+    margin-left: 13px !important;
+  }
+}
+
+.registrationMain label {
+  color: #fff !important;
+  margin: 0px !important;
+  margin-top: 19px !important;
+}
+.registrationMain span {
+  color: red;
+}
+
+@media (min-width: 1366px) and (max-width: 1440px) {
+  .registrationMain label {
+    margin-left: 14px !important;
+  }
+}
+
+.top {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 100px;
+}

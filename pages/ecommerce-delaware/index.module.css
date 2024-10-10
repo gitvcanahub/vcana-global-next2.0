@@ -1,0 +1,712 @@
+.banner_bg {
+  background: url("/ecommerce-delaware.webp");
+  background-size: cover;
+  background-position: top;
+  min-height: 600px;
+  max-height: 600px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.banner_text h1 {
+  font-size: 42px !important;
+  text-align: left;
+  width: 52%;
+  font-weight: 700 !important;
+  letter-spacing: 0.05em;
+  color: #213e92 !important;
+}
+
+.baaner_text1 p {
+  text-align: left !important;
+  font-size: 18px !important;
+  line-height: 26px;
+  width: 51%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #202020 !important;
+}
+
+.bannerlist ul {
+  padding: 0 !important;
+  margin: 0px !important;
+}
+
+.bannerlist ul li {
+  list-style: disc;
+  margin-bottom: 15px !important;
+  color: #202020;
+  margin-left: 23px !important;
+}
+.bannerlist li::marker {
+  color: #f2b721;
+}
+.bannerlist button {
+  margin-top: 30px;
+  border: 3px solid #f2b721;
+  padding: 10px 30px;
+  color: #f2b721;
+  font-weight: 600;
+  background: none !important;
+  display: block;
+  border-radius: 5px;
+}
+
+/*  */
+.formleft {
+  background: white;
+  padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+.formleft button {
+  background: #f7ab19;
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.formleft h6 {
+  font-size: 33px;
+  color: #f7ab19;
+}
+
+.formleft p {
+  text-align: left;
+}
+.formright h3 {
+  text-align: left;
+}
+
+.formright p {
+  text-align: left !important;
+}
+
+.gitform {
+  padding: 100px 0;
+}
+.formright,
+.formright1 {
+  padding-left: 22%;
+}
+
+.formright1 h5 {
+  color: #f2b721;
+  font-size: 24px;
+  margin: 40px 0;
+  font-weight: 600;
+}
+
+.formright1 p {
+  text-align: left;
+  margin-top: 20px;
+  padding-right: 15px;
+}
+.formBoxManual {
+  height: 360px !important;
+  width: 100% !important;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* ============================== */
+
+/* width */
+.formBoxManual::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.formBoxManual::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.formBoxManual::-webkit-scrollbar-thumb {
+  background: #f2b721;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.formBoxManual::-webkit-scrollbar-thumb:hover {
+  background: #f2b721;
+}
+
+/* ========================== */
+
+/*  */
+.protext h3 {
+  text-align: center;
+}
+.protext p {
+  padding: 0 200px;
+}
+.progrid {
+  padding: 70px;
+  text-align: center;
+}
+
+.progrid h6 {
+  font-size: 18px !important;
+  color: #213e92 !important;
+  font-weight: 600;
+}
+.progrid p {
+  font-size: 14px;
+}
+.progrid button {
+  background: none !important;
+  border-bottom: 3px solid #f7ab19 !important;
+  border: none;
+  color: #f7ab19;
+  font-weight: 600;
+}
+.spaceleft {
+  padding-left: 13%;
+}
+.spaceright {
+  padding-right: 13%;
+}
+
+/*  */
+.chooesSection h3 {
+  text-align: center;
+}
+.chooestext p {
+  text-align: left;
+}
+
+.chooestext button {
+  background: none;
+  border: 3px solid #f2b721;
+  padding: 10px 30px;
+  margin-top: 24px !important;
+  color: #f2b721;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.chooesimg {
+  width: 92% !important;
+  height: auto !important;
+  border: 3px solid #f2b721 !important;
+  display: flex;
+  margin: 0 auto;
+}
+.chooesSection {
+  padding: 50px 0px;
+  padding-bottom: 100px;
+}
+
+.meetitext h3,
+.meetitext p {
+  text-align: left;
+}
+
+.meetitext button {
+  background: none;
+  border: 3px solid #f2b721;
+  padding: 10px 30px;
+  margin-top: 30px;
+  color: #f2b721;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.meetitext {
+  padding-left: 15%;
+}
+
+.meetsection {
+  background: #e9e9e9b0;
+  padding: 100px 0px;
+}
+.meetimg {
+  position: relative;
+}
+.pros1 {
+  color: transparent;
+  position: relative;
+  top: -48%;
+  left: 27%;
+}
+
+.meetimg:before {
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 200px;
+  background: url(https://vcana-website-assets.s3.amazonaws.com/images/webdelaware/Star1.png);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 28%;
+  background-repeat: no-repeat;
+}
+
+/*  */
+.accordionsection {
+  padding: 100px 0px;
+}
+.accordionsection h3 {
+  text-align: center;
+}
+
+.protext {
+  padding-top: 100px;
+}
+
+/* PORTFOLIO css strat here */
+
+.portfoliosection {
+  background: #e9e9e9b0;
+  padding: 100px 0px;
+}
+.portfoliosectiontext {
+  padding-right: 50px;
+}
+.portfoliosectiontext h3 {
+  text-align: left;
+}
+.portfoliosectiontext p {
+  text-align: left;
+}
+.prolist ul,
+.prot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.prolist ul li {
+  margin-right: 8px !important;
+  margin-left: 8px !important;
+  font-size: 15px;
+  list-style: none;
+  display: inline-block;
+  font-weight: 600;
+  color: #767070;
+  cursor: pointer;
+}
+.active {
+  background: #fff;
+  padding: 25px !important;
+  box-shadow: rgba(144 144 144 / 35%) 0px 3px 6px;
+  color: #f2b721 !important;
+}
+.img button {
+  display: block;
+  border: none;
+  width: 100%;
+  border-bottom: 3px solid #f2b721;
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 500;
+  background: transparent;
+  margin-top: 15px;
+}
+.img:hover button {
+  background: #f2b721;
+  border-bottom: 2px solid #f2b721;
+  color: #fff !important;
+  border-radius: 4px;
+}
+.img {
+  width: 94%;
+  margin: 25px auto;
+  height: 570px;
+  object-fit: cover;
+  object-position: top;
+}
+.pros1 {
+  margin: 20px auto 0;
+  display: block;
+  width: 90%;
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* PORTFOLIO css end here */
+
+.clicker {
+  outline: none;
+  cursor: pointer;
+}
+
+.hiddendiv {
+  display: none;
+}
+
+.clicker:focus + .hiddendiv {
+  display: block;
+}
+
+.setImg {
+  object-fit: cover;
+  object-position: top;
+  height: 500px;
+  width: 100%;
+}
+
+.starImg1 {
+  margin-left: -15px;
+  margin-top: -15px;
+}
+.starImg2 {
+  margin-top: -15px;
+}
+.starImg3 {
+  margin-left: -15px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+.box h6 {
+  font-size: 73px;
+  color: #fff;
+  position: absolute;
+  right: 25%;
+}
+.box123 span {
+  padding-left: 0 !important;
+}
+.projectBtn {
+  border: 3px solid #f2b721;
+  padding: 10px 30px;
+  color: #f2b721;
+  font-weight: 600;
+  background: none !important;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.prosss {
+  padding: 0px 105px;
+}
+
+.accHead,
+.accBody {
+  background-color: white !important;
+  color: gray !important;
+}
+
+.accBody {
+  padding-top: 0;
+}
+
+.accHead button {
+  box-shadow: none !important;
+}
+
+.accHead .accHeadName {
+  color: #7b7b7b !important;
+  font-size: 17px !important;
+  letter-spacing: 0.02em;
+  text-align: start;
+}
+
+.accItem {
+  box-shadow: none;
+  border-bottom: 1px solid #d2d2d2 !important;
+}
+
+/* ecommerce-website-development-company-usa csss page main start here */
+.Ecommerce {
+  background-color: red;
+}
+
+/* ecommerce-website-development-company-usa csss page main end here */
+
+/* responvice wesite css */
+
+@media (max-width: 767px) {
+  .accBody {
+    font-size: 14px;
+  }
+  .accHead .accHeadName {
+    font-size: 14px !important;
+  }
+  .portfoliosectiontext {
+    padding: 0px 20px;
+  }
+  .chooestext button {
+    display: flex;
+    margin: 0 auto;
+  }
+  .formBoxManual {
+    height: 180px !important;
+    padding: 0 20px;
+  }
+  .processMidImg {
+    display: none;
+  }
+  .protext p {
+    padding: 10px;
+  }
+  .protext {
+    padding: 50px 10px 0 10px;
+  }
+  .gitform {
+    padding: 50px 0;
+  }
+  .starImg1,
+  .starImg2,
+  .starImg3 {
+    margin: 0;
+  }
+  .box h6 {
+    right: 30%;
+  }
+  .portfoliosection {
+    padding: 50px 0px;
+    margin-top: 0;
+  }
+  .chooestext p {
+    text-align: center;
+  }
+  .formright {
+    padding-top: 50px !important;
+  }
+  .formright h3,
+  .formright p,
+  .portfoliosectiontext h3,
+  .portfoliosectiontext p,
+  .meetitext h3,
+  .meetitext p {
+    text-align: center !important;
+  }
+  .bannerlist button {
+    margin-top: 0;
+  }
+  .chooestext {
+    padding: 10px 0px 0px 0px;
+  }
+  .prosss {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .grpRow {
+    text-align: center;
+  }
+  .prolist ul li {
+    font-size: 10px;
+  }
+  .spaceleft {
+    padding: 10px;
+    padding-bottom: 0;
+  }
+  .spaceright {
+    padding: 10px;
+    padding-top: 0;
+  }
+  .formright,
+  .formright1 {
+    padding: 10px;
+  }
+  .meetitext {
+    padding: 10px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .chooesSection {
+    padding: 10px;
+  }
+  .chooesSection {
+    padding-bottom: 50px;
+  }
+  .chooesimg {
+    width: 100% !important;
+    margin-top: 10px;
+    border: 2px solid #f2b721 !important;
+  }
+  .pros {
+    object-fit: cover;
+  }
+  .meetimg:before {
+    display: none;
+  }
+  .formright1 h5 {
+    margin: 0px 0;
+    font-size: 18px;
+  }
+  .progrid {
+    border-radius: 8px;
+    padding: 20px 10px 0px 10px !important;
+    box-shadow: #cbcbcb 0px 1px 3px 1px;
+    margin: 0px 15px 20px 15px;
+    height: 240px;
+  }
+  .accordionsection {
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .banner_bg {
+    background-size: auto;
+    background-position: 38%;
+    text-align: left;
+    padding: 30px;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    max-height: 500px;
+  }
+
+  .banner_text h1 {
+    font-size: 20px !important;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 0px;
+    font-weight: 700 !important;
+    letter-spacing: 0.05em;
+    color: #213e92 !important;
+  }
+  .baaner_text1 p {
+    text-align: left !important;
+    font-size: 16px !important;
+    line-height: 26px;
+    width: 100%;
+    margin-top: 0px !important;
+    margin-bottom: 0px;
+  }
+  .formleft {
+    margin: 0px 10px;
+    padding: 20px;
+  }
+  .meetsection {
+    background: #e9e9e9b0;
+    padding: 50px 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .portfoliosectiontext {
+    padding-right: 0px;
+  }
+  .processMidImg {
+    display: none;
+  }
+  .spaceleft {
+    padding-left: 0;
+  }
+  .spaceright {
+    padding-right: 0;
+  }
+  .progrid {
+    border-radius: 8px;
+    padding: 20px 10px 0px 10px !important;
+    box-shadow: #cbcbcb 0px 1px 3px 1px;
+    margin: 0px 15px 20px 15px;
+    height: 300px;
+  }
+  .portfoliosectiontext h3,
+  .portfoliosectiontext p {
+    text-align: center !important;
+  }
+  .progrid p {
+    font-size: 12px;
+  }
+  .progrid h6 {
+    font-size: 16px !important;
+  }
+  .accortext p {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .formright,
+  .formright1 {
+    padding-left: 12%;
+  }
+  .banner_text h1,
+  .banner_text h2 {
+    font-size: 22px !important;
+  }
+  .prolist ul li {
+    font-size: 12px;
+  }
+  .protext p {
+    padding: 0px 50px;
+  }
+  .meetitext {
+    padding-left: 10%;
+  }
+  .meetimg:before {
+    top: 21%;
+  }
+  .starImg1 {
+    margin-left: -20px;
+  }
+  .starImg3 {
+    margin-left: -20px;
+    margin-top: -10px;
+  }
+  .box {
+    margin-left: 22px;
+    margin-top: -10px;
+  }
+  .box h6 {
+    right: 5%;
+  }
+  .starImg1,
+  .starImg2,
+  .starImg3,
+  .starImg4 {
+    width: 200px;
+    height: 200px;
+  }
+  .formleft {
+    padding: 25px;
+  }
+  .protext {
+    padding-bottom: 20px;
+  }
+  .banner_bg {
+    background-position: 60%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .progrid {
+    padding: 30px;
+  }
+  .img button {
+    font-size: 15px;
+  }
+  .protext p {
+    padding: 0px 50px;
+  }
+  .starImg1,
+  .starImg2,
+  .starImg3,
+  .starImg4 {
+    width: 250px;
+    height: 250px;
+  }
+  .meetitext {
+    padding-left: 15%;
+  }
+  .banner_bg {
+    padding: 64px 0;
+    height: 580px;
+  }
+  .banner_text h1 {
+    font-size: 35px !important;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 2500px) {
+  .meetimg:before {
+    left: -6%;
+    right: 0;
+  }
+}

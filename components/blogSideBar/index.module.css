@@ -1,0 +1,209 @@
+.formBox {
+  margin-top: 89px !important;
+  color: #f4622a;
+}
+
+.divider {
+  width: 107.68px;
+  height: 4.2px;
+  background-color: #f2b721;
+}
+
+.rectangleDiv1 {
+  margin-bottom: 30px !important;
+}
+
+input.form-control {
+  font-size: 12px;
+  /* padding: 16px;*/
+}
+
+.blogbutton {
+  font-size: 20px;
+  border: 1px solid #d9d9d9;
+  padding: 15px 31px;
+}
+
+.rectangleDiv {
+  position: relative;
+  background-color: #fafafa;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  width: 85%;
+  padding: 0px 20px 20px;
+}
+
+.rectangleDiv h2 {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #121212 !important;
+  text-align: left;
+  padding-top: 35px;
+}
+
+.rectangleDiv p {
+  color: #828282;
+  font-size: 15px;
+}
+
+.rectangleDiv ul {
+  padding: 15px 0px 0px !important;
+}
+
+/* .boxhideshow ul{
+  padding-left: 12px !important;
+} */
+.boxhideshow li {
+  list-style: none !important;
+  text-align: left;
+  color: #213d927e !important;
+  padding: 5px 0px 5px 10px !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  line-height: 15px !important;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.rectangleDiv li {
+  list-style: none;
+  text-align: left;
+  color: rgb(122, 122, 122);
+  padding: 10px 0px 5px !important;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.rectangleDiv a {
+  list-style: none;
+  text-align: center;
+  margin: 7px 0px !important;
+  border-bottom: 0px solid #0e0e0e;
+  color: #828282;
+}
+
+.Sidebar {
+  padding: 20px !important;
+}
+
+.newsbutton {
+  background: #f2b721;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 0;
+}
+
+.newsemail {
+  padding: 15px;
+  color: #828282;
+  font-size: 15px;
+}
+
+.sideImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 0 2000px #3b3b7e4d !important;
+  width: 85% !important;
+}
+
+.sideImage a {
+  background-color: #f2b721 !important;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 500;
+  margin-top: 10px;
+  padding: 9px 15px;
+}
+
+.sideImage h4 {
+  font-size: 32px;
+  color: #fff !important;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* new css of blog */
+.boxhideshow {
+  display: none;
+}
+
+.boxopen:hover .boxhideshow {
+  transition-delay: 3s !important;
+  transition-delay: 2s, 4ms !important;
+  display: block !important;
+}
+
+.boxhideshow ul li:hover {
+  color: #000 !important;
+}
+
+@media (max-width: 768px) {
+  .rectangleDiv,
+  .sideImage {
+    width: 90% !important;
+    margin: auto;
+  }
+
+  .sideImage {
+    background-size: cover !important;
+  }
+  /* .news {
+    display: none;
+  } */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .rectangleDiv h2 {
+    font-size: 18px;
+  }
+
+  .rectangleDiv {
+    padding: 10px 8px 40px 15px;
+  }
+
+  .rectangleDiv li {
+    padding: 16px 0px !important;
+    font-size: 12px !important;
+    line-height: 23px !important;
+    color: #000000 !important;
+  }
+
+  .incontrol {
+    height: 1rem !important;
+  }
+
+  .formBtn {
+    font-size: 18px;
+    display: block;
+    padding: 12px 26px;
+    margin: auto;
+  }
+
+  .sideImage {
+    height: 350px;
+  }
+
+  .sideImage a {
+    font-size: 17px;
+    display: block;
+    padding: 12px 26px;
+  }
+
+  .sideImage h4 {
+    font-size: 25px !important;
+  }
+}
+
+/* skelton csss start */
+.loadingblog {
+  height: 15px;
+  width: 220px;
+  margin-top: 10px;
+}

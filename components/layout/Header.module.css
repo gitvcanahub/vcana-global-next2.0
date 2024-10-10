@@ -1,0 +1,577 @@
+/* phone icon shrink */
+/* .headerposition {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+} */
+/* Add this CSS class to your stylesheet */
+.fixedHeader {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 21;
+  /* Add any other styling for your fixed header here */
+}
+
+.tell svg {
+  animation: phone 3s ease-in-out infinite;
+  animation-iteration-count: 20;
+  -webkit-animation: phone 3s ease-in-out infinite;
+}
+
+.loHeader {
+  background: (27, 96, 166, 0.64) !important;
+}
+
+@keyframes phone {
+  0%,
+  4%,
+  8%,
+  12%,
+  16%,
+  20%,
+  24%,
+  28%,
+  32% {
+    transform: rotate(-21deg);
+  }
+
+  2%,
+  6%,
+  10%,
+  14%,
+  18%,
+  22%,
+  26%,
+  30% {
+    transform: rotate(21deg);
+  }
+
+  33%,
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.navMenu1 button:hover {
+  background-color: #f2b721 !important;
+}
+
+.navMenu1 button {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.navMenu1 button:hover:after {
+  left: 5% !important;
+  width: 90% !important;
+  transform: skewX(25deg) !important;
+}
+
+.navMenu1 button:after {
+  background-color: #223f92;
+  content: "";
+  height: 100% !important;
+  left: 50% !important;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  transform: skewX(0) !important;
+  transition: all 0.16s ease 0s !important;
+  width: 0;
+  z-index: -1;
+  -webkit-transition: all 0.16s ease 0s !important;
+  -moz-transition: all 0.16s ease 0s !important;
+  -ms-transition: all 0.16s ease 0s !important;
+  -o-transition: all 0.16s ease 0s !important;
+  -webkit-transform: skewX(0) !important;
+  -moz-transform: skewX(0) !important;
+  -ms-transform: skewX(0) !important;
+  -o-transform: skewX(0) !important;
+}
+
+.navMenu button:hover {
+  background-color: #f2b721 !important;
+}
+
+.navMenu button {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.navMenu button:hover:after {
+  left: 5% !important;
+  width: 90% !important;
+  transform: skewX(25deg) !important;
+}
+
+.navMenu button:after {
+  background-color: #223f92;
+  content: "";
+  height: 100% !important;
+  left: 50% !important;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  transform: skewX(0) !important;
+  transition: all 0.1s ease 0s !important;
+  width: 0;
+  z-index: -1;
+  -webkit-transition: all 0.1s ease 0s !important;
+  -moz-transition: all 0.1s ease 0s !important;
+  -ms-transition: all 0.1s ease 0s !important;
+  -o-transition: all 0.1s ease 0s !important;
+  -webkit-transform: skewX(0) !important;
+  -moz-transform: skewX(0) !important;
+  -ms-transform: skewX(0) !important;
+  -o-transform: skewX(0) !important;
+}
+
+/* phone icon shrink */
+
+.main {
+  z-index: 9;
+  /* box-shadow: rgba(33, 37, 41, 0.1) 0px 10px 10px;  */
+}
+
+.setNav img {
+  width: 100% !important;
+  object-fit: contain !important;
+  height: 25px;
+}
+
+.setMail {
+  text-align: end;
+}
+
+.check {
+  background-color: #00000000 !important;
+}
+
+.headercontact {
+  padding: 10px 0px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.setNav {
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 99;
+}
+
+.phoneIcon li a {
+  color: #000000 !important;
+}
+
+.phoneIcon ul {
+  display: contents;
+  list-style: none;
+}
+
+.phoneIcon li {
+  margin-left: 25px !important;
+  display: inline-block;
+}
+
+.phoneIcon svg {
+  margin-right: 5px;
+  color: #ff3300;
+}
+
+/* .setNav img {
+  padding-top: 20px;
+} */
+
+.navMenu a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  /* align-content: space-around; */
+  margin-left: 40px;
+  letter-spacing: 0.1rem;
+}
+
+.navMenu1 a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  /* align-content: space-around; */
+  margin-left: 40px;
+  letter-spacing: 0.1rem;
+}
+
+.navMenu a:hover {
+  color: #f2b721;
+}
+
+.navMenu1 a:hover {
+  color: #f2b721;
+}
+
+.navMenu button {
+  margin-left: 30px;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  border-width: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 3px;
+  font-weight: 600;
+  text-align: center;
+  background-color: #f2b721;
+}
+
+.navMenu1 button {
+  margin-left: 30px;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  border-width: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 3px;
+  font-weight: 600;
+  text-align: center;
+  background-color: #f2b721;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .openbtn {
+    display: block !important;
+  }
+  /* The sidepanel menu */
+  .sidepanel {
+    top: 0px !important;
+  }
+  .navMenu1 a {
+    color: #ffffff;
+    /* align-content: space-around; */
+    margin-bottom: 7px;
+  }
+  .phoneIcon li a {
+    font-size: 9px;
+  }
+  .sidepanel a {
+    color: #ffff !important;
+  }
+  div#toggleB {
+    display: block !important;
+  }
+  .phoneIcon {
+    justify-content: space-around;
+    align-items: center;
+  }
+  .sidepanel a {
+    color: #000000 !important;
+    text-transform: uppercase;
+  }
+  .setNav {
+    display: flex !important;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+  .settabMenu {
+    display: flex !important;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .setMail {
+    text-align: center !important;
+    font-size: 14px;
+  }
+
+  .phoneIcon {
+    font-size: 16px;
+  }
+
+  .phoneIcon li {
+    font-size: 10px;
+    margin-right: -17px !important;
+  }
+
+  .navMenu a {
+    margin-left: 0px !important;
+  }
+  div#toggleB {
+    display: block;
+  }
+  /* .main {
+    display: flex !important;
+  } */
+}
+
+@media (min-width: 320px) and (max-width: 450px) {
+  .headercontact {
+    display: none !important;
+  }
+  div#toggleB {
+    display: block;
+  }
+
+  .moblien {
+    display: none;
+  }
+
+  div#basic-navbar-nav {
+    background: #6c8dcb;
+    padding: 21px;
+    margin-top: 14px;
+  }
+
+  .navMenu1 a {
+    color: #ffffff;
+    /* align-content: space-around; */
+    margin-bottom: 7px;
+  }
+
+  .navMenu1 button {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+  }
+
+  .openbtn {
+    display: block !important;
+  }
+
+  .sidepanel a {
+    color: #000000 !important;
+    text-transform: uppercase;
+  }
+  .sidepanel a:nth-child(7) {
+    background: none !important;
+    padding-left: 0;
+  }
+}
+
+.headercontact,
+.setNav {
+  background: #fff !important;
+}
+
+.closebtn {
+  border: navajowhite;
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {
+  .socialIcon svg {
+    font-size: 30px !important;
+  }
+
+  .navMenu a {
+    font-size: 12px;
+  }
+
+  .navMenu a,
+  .navMenu1 a {
+    font-size: 11px;
+    font-weight: 500;
+    color: #000000;
+    /* align-content: space-around; */
+    margin-left: 20px;
+  }
+
+  .openbtn {
+    display: none !important;
+  }
+  .phoneIcon li a {
+    font-size: 13px;
+  }
+  .setaddress h5 {
+    font-size: 14px;
+  }
+}
+
+/* ################################################################################################# */
+
+.upBan {
+  transition: 0.5s;
+}
+
+/* The sidepanel menu */
+.sidepanel {
+  width: 100%;
+  /* Specify a height */
+  height: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #2e2e2e;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  margin-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* height: 100% !IMPORTANT; */
+  /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 14px 3px 14px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  background: #ffffff;
+  margin: 10px;
+  font-weight: 500;
+}
+
+/* //toggle btn form mobile */
+
+.toggleBtn {
+}
+
+.toggleBtn div {
+  height: 4px !important;
+  background: #1f3f93 !important;
+  width: 35px;
+  margin-bottom: 7px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.toggleBtn div:first-child {
+  height: 4px !important;
+  background: #1f3f93 !important;
+  width: 35px;
+  margin-bottom: 7px;
+  /* transform: rotate(45deg) translate(8px, 8px); */
+}
+
+.toggleBtn div:nth-child(2) {
+  /* opacity: 0; */
+}
+
+.toggleBtn div:last-child {
+  height: 4px !important;
+  background: #1f3f93 !important;
+  width: 35px;
+  margin-bottom: 7px;
+  /* transform: rotate(-45deg) translate(7px, -7px); */
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  font-size: 53px;
+  margin-left: 50px;
+  color: #fff;
+}
+.elementor-text-editor.elementor-clearfix {
+  width: 100%;
+  line-height: 1.2em;
+  height: 4.6em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+}
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #1f3f93;
+  color: white;
+  padding: 0px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+.openbtn {
+  display: none;
+}
+
+.btnhover {
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+
+  border-color: transparent;
+  font-weight: 600;
+  text-align: center;
+  background-color: #f2b721 !important;
+  border: none !important;
+}
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .navMenu1 a,
+  .navMenu a {
+    font-size: 13px !important;
+  }
+}
+
+/* mobile service dropdown css services page */
+
+.sidepanel button#dropdown-basic-button {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  background: no-repeat;
+  border: none;
+  color: #fff;
+}
+.phoneIcon li:nth-child(1) {
+  margin-left: 0px !important;
+}
+
+span.navbar-brand {
+  width: 300px !important;
+}
+
+.demotext .card-header {
+  padding-left: 0;
+  padding-right: 0;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/*  */

@@ -1,0 +1,599 @@
+/**
+ * here is the new css of portfolio
+ *
+ * @format
+ */
+
+.portfoliobg {
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: top !important;
+  min-height: 630px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.portfolifrntdetial {
+  display: flex;
+  text-align: start !important;
+  flex-direction: column !important;
+  align-content: flex-start !important;
+  justify-content: flex-end !important;
+}
+
+.portfolio {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+
+.portfoliabsult {
+  opacity: 0;
+  top: 8px;
+  position: absolute;
+  display: flex;
+  transform: scaleX(1);
+}
+
+.mobiletable {
+  .portfoliinertext {
+    width: 100%;
+    align-items: center;
+
+    display: flex;
+    justify-content: flex-start;
+
+    flex-direction: column;
+  }
+}
+
+.desktop {
+  .portfoliinertext {
+    width: 55%;
+    margin-right: 20px !important;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 70px !important;
+    margin-left: 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+
+.portbutton {
+  background: #0a58ca;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px !important;
+  margin: 5px;
+}
+
+.portfoliinnerimg {
+  display: flex;
+  width: 45%;
+  justify-content: flex-end;
+}
+
+.portbutton:hover {
+  background: #f2b721;
+}
+
+.portfoliinertext p {
+  color: white;
+  font-size: 16px !important;
+  line-height: 19px;
+  font-weight: 200 !important;
+  text-align: left !important;
+}
+
+.portfoliinertext h1 {
+  text-transform: uppercase !important;
+  font-size: 23px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #f2b721 !important;
+}
+
+.portfoliabsult:hover {
+  opacity: 1;
+  border: none !important;
+  /* margin: 10px 0px 15px 15px !important; */
+  height: 672px;
+  transition: 0.7s;
+  transform: scaleX(1);
+}
+
+.portfoliabsult:hover .portfoliinertext {
+  -webkit-transform: perspective(300px) rotateY(9deg) translate3d(0, 0, 0);
+  transform: perspective(672px) rotateY(4deg) translate3d(0, 0, 0);
+}
+
+.portfoliabsult:hover .portfolifrntdetial {
+  opacity: 0;
+}
+
+.portfolio:hover .portfoliobg {
+  background-size: cover !important;
+  background-position: top right;
+  background-color: #000000 !important;
+  background-image: none;
+  transition: 0.8s;
+  transform: perspective(672px) rotateY(4deg) translate3d(0, 0, 0);
+}
+
+.portfolio:hover .porthover:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  opacity: 0.7;
+  transition: opacity 0.7s ease-in-out;
+}
+
+.portfolio:hover {
+  box-shadow: none !important;
+}
+
+/* here is the css portfolio of all btn */
+
+.btnhover:hover {
+  background-color: #f2b721 !important;
+}
+
+.btnhover {
+  font-size: 18px !important;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: #f2b721 !important;
+  border: #f2b721 !important;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.btnhover:hover:after {
+  left: 5% !important;
+  width: 90% !important;
+  transform: skewX(25deg) !important;
+}
+
+.btnhover:after {
+  background-color: #223f92;
+  content: "";
+  height: 100% !important;
+  left: 50% !important;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  transform: skewX(0) !important;
+  transition: all 0.1s ease 0s !important;
+  width: 0;
+  z-index: -1;
+  -webkit-transition: all 0.1s ease 0s !important;
+  -moz-transition: all 0.1s ease 0s !important;
+  -ms-transition: all 0.1s ease 0s !important;
+  -o-transition: all 0.1s ease 0s !important;
+  -webkit-transform: skewX(0) !important;
+  -moz-transform: skewX(0) !important;
+  -ms-transform: skewX(0) !important;
+  -o-transform: skewX(0) !important;
+}
+
+.featureimg {
+  width: 70px !important;
+  height: 70px !important;
+}
+
+.mobileview {
+  display: none;
+}
+
+/*  Portfolio section css */
+.port_swiper {
+  height: 550px !important;
+}
+
+.port_bullet {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  margin: 8px;
+}
+
+.swiper-pagination-bullet-active,
+.port_bullet .active {
+  background-color: red !important;
+}
+
+.testimonialContent {
+  opacity: 0;
+}
+
+.servicemain time {
+  color: #f4622a;
+}
+
+.portfolio:hover .testimonialContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 95%;
+  height: 95%;
+  border: 2px solid #f2b721;
+  opacity: 1 !important;
+  z-index: 10;
+  margin: 0 auto;
+  transition: width 0.1s ease 0.6s, height 0.1s ease 0.7s;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: top;
+}
+
+.portfolio h2 {
+  display: none !important;
+  color: #f2b721 !important;
+  font-size: 25px !important;
+  font-weight: 700 !important;
+  text-align: left !important;
+  padding-left: 15px;
+}
+
+.portfolio p {
+  display: none !important;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #f4f4f4;
+  line-height: 1.5;
+  width: 93%;
+}
+
+.portfolio:hover h2 {
+  display: block !important;
+  z-index: 10;
+  padding: 0 !important;
+}
+
+.portfolio:hover p {
+  display: block !important;
+  z-index: 10;
+}
+
+.portfolio h2 {
+  display: none !important;
+}
+
+.portfolio {
+  position: relative;
+}
+
+.is_mobile {
+  display: none !important;
+}
+
+.portfolio:hover:before {
+  position: relative;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #000000ad;
+  top: 0;
+  opacity: 0 !important;
+}
+
+.portfolio:hover:before {
+  opacity: 1;
+  transition: 100ms width ease 200ms;
+}
+
+.is_mobile {
+  display: none !important;
+}
+
+/* portfolio mobile  */
+
+.portfoliomobi {
+  background-image: url(https://vcana-website-assets.s3.amazonaws.com/images/portfolio/poerfolioa.webp);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  min-height: 450px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.portfolio:hover .portfoliomobi {
+  background-image: url(https://vcana-website-assets.s3.amazonaws.com/images/portfolio/portfoliomobi.webp);
+  background-color: #00000080;
+  transition: 0.4s;
+}
+
+.portfoliabsultmobi {
+  opacity: 0;
+  width: 91%;
+  top: 0px;
+  position: absolute;
+  display: flex;
+  transform: scaleX(0.9);
+}
+
+.portfolio:hover .portfoliabsultmobi {
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background: #000000c4;
+  transition: 0.4s;
+  transform: scaleX(1);
+  align-items: center;
+  justify-content: center;
+}
+
+.mobiletab {
+  display: none;
+}
+
+/* portfolio css end */
+@media (max-width: 767px) {
+  .mobilepadd {
+    padding: 0px 30px !important;
+  }
+
+  .desktop {
+    display: none !important;
+  }
+
+  .mobiletab {
+    display: block;
+  }
+
+  .portfoliinnerimg {
+    display: none;
+  }
+
+  .portfoliinertext {
+    width: 90%;
+    margin: auto;
+  }
+
+  .portbutton {
+    min-width: 43px !important;
+    font-size: 10px !important;
+    margin: 5px;
+  }
+
+  .portfoliinertext p {
+    font-size: 14px !important;
+    line-height: 23px;
+  }
+
+  .portfolio:hover .portfoliabsultmobi {
+    opacity: 1;
+    background: #000000cc;
+  }
+
+  .tabsmenu {
+    display: none;
+  }
+
+  .portfoliinertext h1 {
+    font-size: 17px !important;
+  }
+
+  .is_mobile {
+    display: block !important;
+  }
+
+  .port_bullet {
+    display: none;
+  }
+
+  .portfolio {
+    margin-bottom: 17px;
+  }
+
+  .port_swiper {
+    height: 500px !important;
+  }
+}
+
+/* here is is css of tab responsive */
+@media (min-width: 768px) and (max-width: 821px) {
+  .port_swiper {
+    height: 550px !important;
+  }
+
+  .mobilepadd {
+    padding: 0px 30px !important;
+  }
+
+  .mobiletab {
+    display: block;
+  }
+
+  .desktop {
+    display: none !important;
+  }
+}
+
+@media (min-width: 822px) and (max-width: 990px) {
+  .desktop {
+    display: none !important;
+  }
+
+  .mobiletab {
+    display: block;
+  }
+
+  .port_swiper {
+    height: 550px !important;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {
+  .desktop {
+    display: none !important;
+  }
+
+  .mobiletab {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .portfoliomobi {
+    min-height: 600px !important;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1440px) {
+  .about img {
+    max-width: 530px !important;
+  }
+
+  .servicesgrid li {
+    font-size: 11px !important;
+    letter-spacing: 0px !important;
+  }
+
+  .chooesheading p,
+  .keyfeatyurebo p,
+  .textp p,
+  .keyfeatyurebox p {
+    width: 75% !important;
+    margin: 0 auto 10px !important;
+  }
+
+  .keyfeatbox {
+    min-height: 400px !important;
+  }
+
+  .keyfeature_swiper {
+    height: 500px !important;
+  }
+
+  .keyfeaturebg {
+    padding: 30px 0 !important;
+  }
+
+  .secvicesecti li {
+    font-size: 13px !important;
+  }
+
+  .servBox {
+    padding: 30px 10px !important;
+  }
+
+  .secvicestar {
+    min-height: 379px !important;
+    background: white;
+    margin: 15px 10px !important;
+    padding: 50px 10px 20px !important;
+  }
+
+  .secvicestar h2 {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+  }
+
+  .secvic img {
+    max-width: 40px !important;
+    max-height: 30px !important;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1660px) {
+  .servicesgrid li {
+    font-size: 14px !important;
+    letter-spacing: 0px !important;
+  }
+}
+
+@media (min-width: 1661px) and (max-width: 1920px) {
+  .servicesgrid li {
+    font-size: 13px !important;
+    letter-spacing: 0px !important;
+  }
+}
+
+/* media query start*/
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .portfoliinnerimg {
+    display: none;
+  }
+
+  .portfoliinertext p {
+    font-size: 13px !important;
+  }
+
+  .portfoliinertext h1 {
+    font-size: 17px !important;
+  }
+
+  .btnhover {
+    font-size: 12px;
+  }
+
+  .portfoliinertext {
+    width: 90%;
+    justify-content: center !important;
+    margin: auto !important;
+  }
+
+  .portfoliabsultmobi:hover {
+    height: 450px !important;
+
+    width: 100%;
+    background: #0000008c;
+  }
+
+  .mobiletab {
+    display: flex !important;
+  }
+
+  .tabsmenu {
+    display: none !important;
+  }
+
+  .tabsmenu {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .portfoliinnerimg img {
+    width: 260px !important;
+  }
+
+  .boxwidth {
+    min-width: 50% !important;
+  }
+
+  .portfoliinertext {
+    width: 65% !important;
+  }
+
+  .portbutton {
+    min-width: 45px !important;
+  }
+
+  .navlink {
+    margin: 0 0px !important;
+    font-size: 20px !important;
+  }
+
+  .navdetail {
+    width: 18% !important;
+  }
+}

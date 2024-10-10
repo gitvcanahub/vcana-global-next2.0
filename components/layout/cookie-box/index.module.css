@@ -1,0 +1,213 @@
+/** @format */
+
+.mainLogo {
+  left: 26px;
+  background: #213e92;
+  font-size: 40px;
+  bottom: 28px;
+  transform: rotate(45deg);
+  z-index: 99;
+}
+
+.AccordionBtn button {
+  display: block;
+  padding: 10px 10px 0 25px;
+}
+
+.modalMainDiv {
+  padding-left: 0;
+}
+
+.showMoreBtn {
+  cursor: pointer;
+  color: #022ba2;
+}
+
+.parah {
+  text-align: left !important;
+}
+
+.parah2 {
+  text-align: left !important;
+}
+
+.parah3 {
+  font-size: 13px;
+  text-align: center;
+  color: #525252 !important;
+}
+
+.ulTable {
+  font-size: 12px;
+  line-height: 24px;
+  list-style: none;
+}
+
+.leftheading {
+  width: 16%;
+}
+
+.longparah {
+  width: 84%;
+}
+
+.hr {
+  border: 0 !important;
+  height: 0.2px !important;
+  background: #e1e0e0;
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+
+.AccordionItem {
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.icon {
+  font-size: 15px;
+  transform: rotate(270deg);
+}
+
+.btns,
+.acceptBtn {
+  width: 32%;
+  background: white;
+  border: none;
+  box-shadow: 1px 2px 5px #e2e2e2;
+  padding: 10px;
+  color: #898989;
+}
+
+.acceptBtn,
+.acceptBtn2 {
+  background: #1a1a32 !important;
+  color: white !important;
+}
+
+.btns2,
+.acceptBtn2 {
+  width: 10%;
+  background: #f1f1f3;
+  border: none;
+  box-shadow: 0px 0px 1px #00000021;
+  padding: 6px;
+  color: #1a1a32;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.modalBody {
+  height: 58vh;
+  overflow-y: scroll;
+}
+
+.mainCard {
+  width: 100%;
+  z-index: 99;
+  background-image: linear-gradient(
+    to bottom right,
+    white,
+    #f2b721bd
+  ) !important;
+  border-radius: 0;
+  box-shadow: 0 0 0px 1px #00000014;
+  position: sticky;
+  bottom: 0px;
+}
+
+/* ============================== */
+
+/* width */
+.modalBody::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.modalBody::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.modalBody::-webkit-scrollbar-thumb {
+  background: #f2b721;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.modalBody::-webkit-scrollbar-thumb:hover {
+  background: #f2b721;
+}
+
+.AccordionItem button::after {
+  position: absolute;
+  left: 0;
+  top: 16px;
+  transform: rotate(270deg);
+}
+
+/* ========================== */
+
+@media (max-width: 767px) {
+  .mainCard {
+    width: 100%;
+    z-index: 9999;
+    background-color: #ffffffeb !important;
+  }
+
+  .leftheading {
+    width: 32%;
+  }
+
+  .longparah {
+    width: 68%;
+  }
+
+  .btns,
+  .acceptBtn {
+    width: 100%;
+  }
+  .btns2,
+  .acceptBtn2 {
+    width: 30%;
+  }
+  .parah3 {
+    font-size: 13px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .mainCard {
+    width: 100%;
+    z-index: 99;
+  }
+
+  .leftheading {
+    width: 25%;
+  }
+
+  .longparah {
+    width: 75%;
+  }
+
+  .btns,
+  .acceptBtn {
+    width: 30%;
+    font-size: 14px;
+    padding: 8px 2px;
+  }
+  .btns2,
+  .acceptBtn2 {
+    width: 18%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .mainCard {
+    width: 100%;
+    z-index: 99;
+  }
+  .btns2,
+  .acceptBtn2 {
+    width: 18%;
+  }
+}

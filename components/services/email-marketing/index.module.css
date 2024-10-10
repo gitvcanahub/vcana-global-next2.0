@@ -1,0 +1,722 @@
+/* hero-banner */
+.impactps {
+  font-size: 18px;
+  line-height: 32px;
+  color: #6a6a6a;
+}
+
+.main_padding {
+  padding-left: 4% !important;
+  padding-right: 4% !important;
+}
+.main_padding1 {
+  padding-left: 6% !important;
+  padding-right: 6% !important;
+}
+
+.delwares {
+  width: 95% !important;
+  height: 483px;
+}
+
+.bannerAdjust {
+  padding: 0 0 50px 0 !important;
+}
+
+/* hero-banner end */
+
+/* Our SEO Services  start */
+.Aprochboxdetails12:nth-child(6) {
+  border-right: none !important;
+}
+.pinkbgs {
+  padding: 50px 10px 0px 0px;
+  background: rgba(245, 245, 245, 1);
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Our SEO Services  end */
+
+/*  CTA*/
+
+.PARTNER {
+  color: #ffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 40px;
+  background-color: #234093;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.PARTNER h4 {
+  font-size: 24px;
+}
+
+.PARTNER h4,
+.PARTNER p {
+  color: #fff !important;
+  text-align: left;
+}
+
+.btnr {
+  text-align: left;
+}
+
+.cmx h5 {
+  text-align: left;
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.btnr a button {
+  background-color: #f2b721;
+  padding: 10px 32px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.PARTNER button {
+  background: #234093;
+  color: #fff;
+  border: none;
+  padding: 7px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 23px;
+}
+
+.PARTNER button {
+  animation: alltuchtopdown 1.5s ease-in-out 0s infinite alternate;
+  animation-duration: 3s;
+}
+
+@keyframes alltuchtopdown {
+  0% {
+    transform: rotateX(0deg) translateY(0);
+  }
+
+  50% {
+    transform: rotateX(0deg) translateY(-20px);
+    -webkit-transform: rotateX(0deg) translateY(-20px);
+    -moz-transform: rotateX(0deg) translateY(-20px);
+    -ms-transform: rotateX(0deg) translateY(-20px);
+    -o-transform: rotateX(0deg) translateY(-20px);
+  }
+
+  to {
+    transform: rotateX(0deg) translateY(0px);
+    -webkit-transform: rotateX(0deg) translateY(0px);
+    -moz-transform: rotateX(0deg) translateY(0px);
+    -ms-transform: rotateX(0deg) translateY(0px);
+    -o-transform: rotateX(0deg) translateY(0px);
+  }
+}
+
+/* WHY CHOOSE US  start */
+
+.btnhover {
+  background-color: #f2b721 !important;
+  color: #fff;
+  /* border-radius: 0px; */
+  border: none;
+  padding: 7px 20px;
+}
+.WhyChooseUS {
+  margin-bottom: 40px;
+}
+
+.your_website {
+  padding: 6% 1% 3% 0;
+}
+
+.Aprochboxdetails {
+  padding: 20px;
+  min-height: 312px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  border-right: 1px dashed #a9a9a9;
+  border-bottom: 1px dashed #a9a9a9;
+  height: 100%;
+}
+.btnhover {
+  margin-top: 10px;
+  animation: alltuchtopdown 1.5s ease-in-out 0s infinite alternate;
+  animation-duration: 3s;
+}
+.Aprochboxdetails12 {
+  border-bottom: 0px;
+  box-shadow: none;
+}
+
+.Aprochboxdetails h3 {
+  padding-top: 6px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #213e92;
+}
+
+.Aprochboxdetails p {
+  text-align: left;
+  padding-top: 6px;
+  font-size: 16px;
+  color: #6a6a6a;
+}
+
+.Aprochboxdetails:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Aprochboxtransport {
+  border-right: none;
+}
+
+.getStart {
+  border-right: none;
+  padding: 10px 18px;
+  height: 100%;
+  /* margin: 0 auto; */
+  background-size: cover !important;
+  background: #213e92
+    url("https://vcana-website-assets.s3.amazonaws.com/images/banners/smallcta.webp");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.getStart h4,
+.getStart p {
+  color: #fff !important;
+}
+
+/* benefit css */
+
+.benefitbg {
+  background: #f5f5f5;
+  padding: 50px 0px 0px 0;
+}
+
+.boxbg {
+  margin-right: 15px !important;
+  padding: 30px 25px !important;
+  background: #213e92;
+}
+
+.boxbg h2 {
+  text-align: left !important;
+  font-weight: 600 !important;
+  color: #fff !important;
+  font-size: 28px !important;
+}
+
+.boxbg p {
+  text-align: left;
+  color: #fff !important;
+  font-size: 16px !important;
+  margin: 0;
+}
+
+.boxbg:nth-child(3),
+.boxbg:nth-child(6),
+.boxbg:nth-child(9) {
+  background: #f2b721 !important;
+}
+
+.boxbg:nth-child(4),
+.boxbg:nth-child(7),
+.boxbg:nth-child(10) {
+  background: #f4622a !important;
+}
+
+/* WHY CHOOSE US  end */
+
+.testimoinales {
+  margin-top: 100px;
+}
+
+.Choose {
+  padding: 70px 0px;
+  margin: 0 0 0 140px;
+}
+
+/* Choose section start */
+.sectionChoose {
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 17px;
+  border: 1px solid #9993931a;
+  width: 30%;
+}
+
+.sectionChoose {
+  position: relative;
+}
+
+.main_img {
+  position: relative;
+}
+.ChooseBox h2 {
+  text-align: left !important;
+  font-weight: 700 !important;
+  color: #213e92;
+  font-size: 22px !important;
+}
+
+.ChooseBox p {
+  text-align: left;
+}
+
+.blue_bg ::placeholder {
+  color: #fff !important;
+}
+
+.benefits {
+  padding-top: 50px;
+}
+
+/* Mobile Responsive  page */
+@media (max-width: 767px) {
+  .benefitbg {
+    background: #f5f5f5;
+    padding: 30px 10px 20px;
+  }
+
+  .sectionChoose {
+    width: 100%;
+  }
+  .topdjust {
+    padding-bottom: 10px !important;
+  }
+
+  .WhyChooseUS {
+    margin-bottom: 0px;
+  }
+
+  .main_padding,
+  .main_padding1 {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+
+  .rowChoose {
+    margin-left: 0px;
+  }
+
+  /* .bannerinfo img {
+      width: 100%;
+    } */
+
+  .sectionChoose {
+    margin: 10px;
+  }
+  .Aprochboxdetails h3,
+  .getStart h4 {
+    font-size: 20px !important;
+  }
+
+  .delwares {
+    width: 100% !important;
+    height: auto;
+  }
+
+  .PARTNER {
+    margin: 0px !important;
+    padding: 20px !important;
+  }
+
+  .PARTNER h4 {
+    font-weight: 700 !important;
+    line-height: 24px !important;
+    font-size: 21px !important;
+  }
+
+  .bannerinfo {
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .Aprochboxdetails {
+    border-bottom: 1px dashed #a9a9a9 !important;
+    border-right: none;
+    margin: 0 20px;
+    text-align: center;
+    min-height: 250px;
+  }
+
+  .lastaprox {
+    border-bottom: none !important;
+  }
+  .Aprochboxdetails p {
+    text-align: center;
+  }
+  .lastaprox {
+    border-right: none !important;
+  }
+
+  .bannerAdjust {
+    padding: 0px 10px 0px 10px !important;
+  }
+
+  .impactps {
+    margin-top: 20px;
+  }
+  .main_padding1 {
+    padding-left: 0% !important;
+  }
+
+  .pinkbgs {
+    padding: 20px 0;
+  }
+
+  .pinkbgs {
+    margin: 0px 0 0 25px;
+  }
+
+  .bannerdetail {
+    padding: 20px;
+  }
+
+  .pinkbgs {
+    padding: 20px 0;
+    margin-right: 0px !important;
+  }
+
+  .bannertext {
+    padding-left: 34px;
+  }
+
+  .Choose {
+    padding: 30px 10px;
+  }
+
+  .faq {
+    padding-left: 8% !important;
+    margin-bottom: 3%;
+  }
+
+  .bannertext p {
+    padding-right: 0% !important;
+  }
+
+  .ServiceLayout {
+    padding: 0px;
+  }
+
+  .Aprochboxtransport {
+    border-right: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 820px) {
+  .mainHedding1,
+  .mainHedding1 span {
+    text-align: center !important;
+    font-size: 22px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .benefitbg {
+    background: #f5f5f5;
+    padding: 30px 10px 20px;
+  }
+  .main_padding1 {
+    font-size: 25px !important;
+    text-align: left;
+    margin-top: 20px !important;
+    margin-bottom: 0px;
+    text-align: center !important;
+  }
+  .topdjust {
+    padding-top: 35px !important;
+  }
+  .pinkbgs {
+    padding: 20px 10px 0px 0px;
+  }
+  .delwares {
+    width: 95% !important;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .servicesgrid {
+    height: 490px;
+  }
+
+  .main_padding1 span,
+  .main_padding1 span {
+    font-size: 25px !important;
+  }
+
+  .PARTNER h4 {
+    font-size: 22px !important;
+  }
+  .main_padding,
+  .main_padding1 {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+  .bannerinfo {
+    text-align: center;
+  }
+
+  .WhyChooseUS {
+    margin-bottom: 0px;
+  }
+  /* .bannerinfo img {
+      width: 100%;
+    } */
+
+  .impactps {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center !important;
+  }
+
+  .Aprochboxdetails {
+    min-height: 220px;
+    margin: 0px 20px;
+    text-align: center;
+  }
+
+  .Aprochboxdetails p {
+    text-align: center;
+  }
+
+  .Aprochboxdetails12 {
+    border-bottom: none;
+  }
+
+  .AprochboxAfford,
+  .Aprochboxdetails12 {
+    border-bottom: none;
+  }
+
+  .Aprochboxtransport {
+    border-right: 1px dashed #a9a9a9;
+  }
+  .AprochboxAfford,
+  .dedicated {
+    border-bottom: 1px dashed #a9a9a9;
+  }
+
+  .lastaprox,
+  .AprochboxAfford,
+  .cuttingedge,
+  .Aprochboxtransport {
+    border-right: none;
+  }
+  .bannerAdjust {
+    padding: 0px 10px 0px 10px !important;
+  }
+  .Aprochboxdetails:first-child {
+    border-right: none !important;
+  }
+
+  .slide_heightseo {
+    height: 330px !important;
+  }
+  .slide_heightseo h6 {
+    font-size: 50px !important ;
+    line-height: 16px;
+  }
+  .slide_heightseo h4 {
+    font-size: 14px !important;
+  }
+  .slide_heightseo p {
+    font-size: 12px !important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .lastaprox,
+  .Aprochboxtransport {
+    border-right: 1px dashed #a9a9a9;
+  }
+
+  .WhyChooseUS {
+    padding: 0 10px;
+    margin-left: 15px;
+  }
+
+  .main_padding,
+  .main_padding1 {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+  }
+
+  .Aprochboxdetails12 {
+    border-bottom: 1px dashed #a9a9a9;
+  }
+  .Aprochboxdetails {
+    min-height: 280px;
+  }
+  .dedicated,
+  .lastaprox {
+    border-bottom: none;
+  }
+  .cuttingedge,
+  .AprochboxAfford,
+  .lastaprox {
+    border-right: none !important;
+  }
+  .whychosemain1 {
+    padding-left: 0% !important;
+  }
+
+  .mainHedding1 {
+    text-align: center !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+
+  .bannerinfo {
+    text-align: center;
+  }
+
+  /* .bannerinfo img {
+      width: 100%;
+    } */
+
+  .impactps {
+    margin-top: 20px !important;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center !important;
+  }
+  .main_padding1 {
+    padding-left: 0% !important;
+  }
+  .bannerAdjust {
+    padding: 0 20px 20px 20px !important;
+  }
+  .pinkbgs {
+    padding: 30px 10px 0px 0px;
+  }
+
+  .delwares {
+    padding-left: 0%;
+    width: 100% !important;
+  }
+
+  .Aprochboxdetails h3 {
+    padding-top: 7px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1365px) {
+  .Aprochboxdetails {
+    min-height: 325px;
+  }
+  .PARTNER {
+    padding: 21px;
+  }
+
+  .main_padding,
+  .main_padding1 {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+  }
+
+  .impactp h1 {
+    font-size: 32px !important;
+  }
+
+  .main_padding1 {
+    font-size: 32px !important;
+    text-align: left;
+  }
+
+  .impactps {
+    font-size: 14px;
+    line-height: 21px;
+    color: #6a6a6a;
+  }
+  .main_padding1 {
+    padding-left: 9% !important;
+  }
+  .delwares {
+    width: 95% !important;
+    height: 460px;
+  }
+
+  .bannerAdjust {
+    padding-bottom: 40px !important;
+  }
+
+  .pinkbgs {
+    padding: 40px 10px 0px;
+  }
+
+  .WhyChooseUS {
+    margin-bottom: 40px;
+    padding: 0 40px;
+  }
+
+  .Aprochboxdetails h3 {
+    font-size: 18px;
+  }
+
+  .container_back h6 {
+    font-size: 52px !important;
+    padding-bottom: 5px !important;
+  }
+
+  .services img {
+    width: 94% !important;
+    height: 62% !important;
+  }
+
+  .imgBox img {
+    width: 80% !important;
+    height: 67% !important;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1440px) {
+  .impactps {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .delwares {
+    width: 95% !important;
+    height: 384px;
+  }
+
+  .main_padding,
+  .main_padding1 {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1700px) {
+  .impactps {
+    font-size: 18px;
+    line-height: 30px;
+    color: #6a6a6a;
+  }
+  .topdjust {
+    padding-bottom: 50px;
+  }
+  .delwares {
+    width: 95% !important;
+    height: 537px;
+  }
+}
+@media (min-width: 1700px) and (max-width: 1800px) {
+  .bannerAdjust {
+    padding: 0 30px !important;
+  }
+
+  .impactps {
+    font-size: 19px;
+    line-height: 27px;
+    color: #6a6a6a;
+  }
+}
+@media (max-width: 560px) {
+  .main_img {
+    display: none;
+  }
+}

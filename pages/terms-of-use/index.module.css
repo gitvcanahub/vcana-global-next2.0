@@ -1,0 +1,41 @@
+.polictext h2 {
+  font-size: 22px !important;
+  font-weight: 600 !important;
+}
+.polictext ul {
+  padding-left: 20px !important;
+  margin: 0px;
+}
+.polictext li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #6a6a6a;
+}
+.polictext h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+.polictext p {
+  color: #000;
+}
+.polictext {
+  padding-top: 50px;
+  background: #b7b7b700;
+}
+
+.polictext p {
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .polictext {
+    padding: 25px;
+  }
+  .polictext a {
+    font-size: 12px;
+    text-decoration: none !important;
+  }
+}

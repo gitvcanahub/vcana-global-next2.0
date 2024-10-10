@@ -1,0 +1,1187 @@
+/** @format */
+
+.card1.card {
+  border: none;
+}
+
+.card1 .card-header button {
+  border: none !important;
+  background: none !important;
+  display: block !important;
+  width: 99.99% !important;
+}
+
+/* =================cta========== */
+[data-aos="custom"] {
+  width: 60%;
+  transition: all 50s ease-out;
+
+  &.aos-animate {
+    width: 100%;
+    transition: all 50s ease-out;
+  }
+}
+
+/* ================cta=============== */
+
+/* input cuntery code */
+/* jkjhv */
+
+.PhoneInputInput {
+  flex: 1 1;
+  min-width: 0;
+  border: none;
+}
+.PhoneInputInput:focus-visible {
+  outline: 0 !important;
+}
+/* input cuntery code */
+.card1 button {
+  border: none !important;
+  margin-bottom: 23px;
+  background: none !important;
+  font-size: 16px;
+  text-align: left;
+}
+
+.card {
+  background: none !important;
+  border: none !important;
+  background: none !important;
+}
+
+h2 {
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #213e92 !important;
+}
+
+h2 span {
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #f2b721 !important;
+}
+
+.short_heading {
+  text-align: center;
+  color: #000 !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem !important;
+}
+
+h4 {
+  font-size: 25px !important;
+  font-weight: bold !important;
+  color: #213e92 !important;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #6a6a6a;
+}
+
+.testimonialSec {
+  background-color: red !important;
+}
+
+hr {
+  border: 0 !important;
+  height: 2px !important;
+  background: linear-gradient(
+    to right,
+    #d9d9d9 0% 25%,
+    #f2b721 25% 75%,
+    #d9d9d9 70% 80%
+  );
+  width: 16% !important;
+  opacity: 1.1 !important;
+  margin-top: -1px !important;
+  margin: 0 auto !important;
+}
+
+ul,
+li {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* fix this layte */
+.accordion-item {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: #f7faff !important;
+  border: none !important;
+  border-radius: 10px !important;
+  margin-bottom: 15px;
+}
+
+.accordion-item .accordion-button {
+  background-color: #e6edf7;
+}
+
+h2.accordion-header > button {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  color: #000000 !important;
+  border: none;
+}
+
+button.accordion-button {
+  background: none !important;
+}
+
+.box .accordion-button::after {
+  flex-shrink: 0;
+  width: var(--bs-accordion-btn-icon-width);
+  height: var(--bs-accordion-btn-icon-width);
+  margin-left: auto;
+  content: "";
+  /* background-image: var(--bs-accordion-btn-icon); */
+  background-repeat: no-repeat;
+  background-size: var(--bs-accordion-btn-icon-width);
+  transition: var(--bs-accordion-btn-icon-transition);
+  content: "\2b" !important;
+  background-image: none !important;
+  font-size: 24px !important;
+  color: #213e92 !important;
+}
+
+.accordion-button:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.faq img {
+  display: none !important;
+}
+
+.btnhover:hover {
+  background-color: #f2b721;
+}
+.btnhover1:hover {
+  background-color: #ffffff !important;
+}
+.btnhover,
+.btnhover1 {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.btnhover :hover:after,
+.btnhover1:hover:after {
+  left: 5% !important;
+  width: 90% !important;
+  transform: skewX(25deg) !important;
+}
+
+.btnhover {
+  background-color: #f2b721 !important;
+}
+.btnhover1 {
+  background-color: #213e92 !important;
+}
+.btnhover button,
+.btnhover button {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.btnhover:hover:after,
+.btnhover1:hover:after {
+  left: 5% !important;
+  width: 90% !important;
+  transform: skewX(25deg) !important;
+}
+
+.btnhover:after,
+.btnhover1:after {
+  background-color: #223f92;
+  content: "";
+  border: none !important;
+  height: 100% !important;
+  left: 50% !important;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  transform: skewX(0) !important;
+  transition: all 0.1s ease 0s !important;
+  width: 0;
+  z-index: -1;
+  -webkit-transition: all 0.1s ease 0s !important;
+  -moz-transition: all 0.1s ease 0s !important;
+  -ms-transition: all 0.1s ease 0s !important;
+  -o-transition: all 0.1s ease 0s !important;
+  -webkit-transform: skewX(0) !important;
+  -moz-transform: skewX(0) !important;
+  -ms-transform: skewX(0) !important;
+  -o-transform: skewX(0) !important;
+}
+/* button hover color end */
+
+/* mobile cta css */
+.mobiCtaset .btnhover,
+.btnhover1 {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.mobiCtaset {
+  display: none !important;
+  background: #213e92
+    url("https://www.vcanaglobal.comhttps://vcana-website-assets.s3.amazonaws.com/images/banners/smallcta.webp");
+  background-repeat: no-repeat;
+  display: flex;
+  margin-bottom: 10px;
+  margin: 20px 10px;
+  background-color: #fafafa;
+  padding: 40px 12px;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  align-items: center;
+  background-size: 100% 100%;
+}
+.mobiCtaset p {
+  padding: 0px !important;
+}
+
+/* ///// cookie-box//////// */
+.AccordionItem button:not(.collapsed)::after {
+  transform: rotate(360deg);
+}
+
+@media (min-width: 1020px) and (max-width: 1280px) {
+  .map-iframe iframe {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+  .map-iframe iframe {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .pluxicon111.card-header {
+    margin-top: 0px !important;
+  }
+  br {
+    display: none;
+  }
+  h2,
+  h2 span,
+  .h3Headings,
+  .h3Headings span {
+    font-size: 25px !important;
+  }
+  div#toggleB {
+    display: block !important;
+    position: absolute;
+    right: 27px;
+  }
+  .pluxicon span {
+    right: 17px !important;
+    top: 0px !important;
+  }
+  .card1 .card-body {
+    line-height: 20px !important;
+  }
+  .demotext .card-header {
+    border: none !important;
+  }
+  .demotext .card-header {
+    width: 97% !important;
+  }
+  /* mobi CTA css */
+  .mobiCtaset {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  h2,
+  h2 span,
+  .h3Headings,
+  .h3Headings span {
+    font-size: 25px !important;
+  }
+}
+
+/* Mobile Responsive  page */
+
+@media (min-width: 320px) and (max-width: 500px) {
+  h2,
+  h2 span,
+  .h3Headings,
+  .h3Headings span {
+    font-size: 22px !important;
+  }
+
+  div#toggleB {
+    display: block !important;
+    right: 15px;
+    position: absolute;
+  }
+  .menu_style.mat {
+    margin-top: -24px !important;
+  }
+
+  button.navbar-toggler.collapsed {
+    background: #fff;
+  }
+  .demotext .card-header {
+    border: none !important;
+  }
+  div#basic-navbar-nav {
+    background: #6c8dcb;
+    padding: 21px;
+  }
+
+  button.navbar-toggler {
+    background: #fff;
+  }
+
+  hr {
+    border: 0 !important;
+    height: 3px !important;
+    background: linear-gradient(
+      90deg,
+      #d9d9d9 0 25%,
+      #f2b721 25% 75%,
+      #d9d9d9 70% 80%
+    );
+    width: 34% !important;
+    opacity: 1 !important;
+    margin: 0 auto !important;
+  }
+
+  .swiper {
+    width: 100% !important;
+  }
+
+  span.navbar-brand {
+    width: 62% !important;
+  }
+
+  .map-iframe iframe {
+    width: 290px !important;
+    height: 150px !important;
+  }
+
+  .setaddress {
+    padding-bottom: 15px;
+  }
+
+  .short_heading {
+    font-size: 16px !important;
+  }
+  /* mobi CTA css */
+  .mobiCtaset {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1365px) and (max-width: 1440px) {
+  .short_heading {
+    font-size: 20px !important;
+  }
+
+  h2,
+  h2 span,
+  .h3Headings,
+  .h3Headings span {
+    font-size: 24px !important;
+  }
+
+  .map-iframe iframe {
+    width: 250px !important;
+    height: 250px !important;
+  }
+}
+
+/* custom css for bootstrap define  */
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  --bs-gutter-x: 0rem !important;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  --bs-gutter-x: 0rem !important;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.col {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+/* testimonial css start */
+
+.test-swiper {
+  padding-top: 20px !important;
+
+  --swiper-navigation-size: 35px;
+
+  .swiper-button-prev {
+    color: #f2b721;
+    font-weight: bolder;
+  }
+
+  .swiper-slide {
+    margin-top: 70px;
+  }
+
+  .swiper-button-next {
+    color: #f2b721;
+    font-weight: bolder;
+  }
+
+  .swiper-slide-active {
+    text-align: center;
+
+    margin-top: 0px !important;
+  }
+
+  .swiper-slide-active img {
+    width: 180px !important;
+    height: auto;
+    border: 3px solid #f2b721 !important;
+    border-radius: 50%;
+    transition: border 1s ease;
+    -webkit-transition: border 1s ease;
+    -moz-transition: border 1s ease;
+    -ms-transition: border 1s ease;
+    -o-transition: border 1s ease;
+  }
+
+  .swiper-slide-prev {
+    text-align: center;
+    display: flex !important;
+    margin: 32px auto auto auto !important;
+    justify-content: center;
+  }
+
+  *:has(+ .swiper-slide-prev) {
+    display: flex !important;
+    margin: 55px auto auto auto !important;
+    justify-content: center;
+  }
+
+  .swiper-slide-next + * {
+    display: flex !important;
+    margin: 55px auto auto auto !important;
+    justify-content: center;
+  }
+
+  *:has(+ .swiper-slide-prev) img {
+    width: 50 !important;
+    height: auto;
+  }
+
+  .swiper-slide-next + * img {
+    width: 50px !important;
+    height: auto;
+  }
+
+  .swiper-slide-prev img {
+    width: 100px !important;
+    height: auto;
+  }
+
+  .swiper-slide-next img {
+    width: 100px !important;
+    height: auto;
+  }
+
+  .swiper-slide-next {
+    display: flex !important;
+    margin: 32px auto auto auto !important;
+    justify-content: center;
+  }
+}
+
+/* portfolio swiper start  */
+.port-swiper {
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    color: #f2b721;
+  }
+
+  .swiper-pagination-bullet {
+    width: var(
+      --swiper-pagination-bullet-width,
+      var(--swiper-pagination-bullet-size, 13px)
+    );
+    height: var(
+      --swiper-pagination-bullet-height,
+      var(--swiper-pagination-bullet-size, 13px)
+    );
+  }
+
+  .swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: var(--swiper-pagination-color, #f2b721);
+  }
+}
+
+/* process swiper start  */
+.process-swiper {
+  .swiper-pagination-bullet {
+    width: var(
+      --swiper-pagination-bullet-width,
+      var(--swiper-pagination-bullet-size, 15px)
+    );
+    height: var(
+      --swiper-pagination-bullet-height,
+      var(--swiper-pagination-bullet-size, 15px)
+    );
+  }
+
+  .swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: var(--swiper-pagination-color, #f2b721);
+  }
+}
+
+/* process swiper end  */
+
+.test2-swiper1 {
+  .swiper-slide:not(.swiper-slide-active) {
+    opacity: 0 !important;
+  }
+}
+
+/* portfolio swiper end 
+ */
+
+/* media query  */
+
+@media (max-width: 768px) {
+  .cmx {
+    margin: 10px 10px !important;
+    padding: 0px;
+  }
+  .process-swiper {
+    .swiper-pagination-bullet {
+      width: var(
+        --swiper-pagination-bullet-width,
+        var(--swiper-pagination-bullet-size, 12px)
+      );
+      height: var(
+        --swiper-pagination-bullet-height,
+        var(--swiper-pagination-bullet-size, 12px)
+      );
+    }
+
+    .swiper-pagination-bullet-active {
+      opacity: var(--swiper-pagination-bullet-opacity, 1);
+      background: var(--swiper-pagination-color, #f2b721);
+    }
+  }
+
+  .py-4.py-xl-0.mb-5.cmx.row {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .faq {
+    margin: 10px !important;
+  }
+
+  .test-swiper {
+    .swiper-slide {
+      margin-top: 0px;
+      /* margin-left :10px */
+      margin-left: 0px;
+    }
+  }
+}
+
+.input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1;
+  /* Firefox */
+}
+
+.map-iframe iframe {
+  width: 100% !important;
+  height: revert-layer;
+}
+
+@media (max-width: 768px) {
+  .card1 button {
+    text-align: left !important;
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 15px !important;
+  }
+  .demotext.card a {
+    margin: 0 !important;
+    padding-left: 0px !important;
+  }
+  .demotext .card-body {
+    margin: 10px;
+    background: #223f93;
+    color: #fff;
+    padding: 28px;
+    line-height: 0px !important;
+    height: 0px !important;
+  }
+  .demotext a {
+    padding: 0px;
+    background: none;
+  }
+  .demotext a:nth-child(1) {
+    background: none;
+  }
+  .demotext .card-header {
+    margin-bottom: 0px !important;
+    padding: 0;
+    width: 95%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 0px !important;
+    padding: 16px 32px !important;
+    display: flex !important;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+  .card1 button {
+    font-size: 14px;
+  }
+
+  .pluxicon span {
+    right: 17px !important;
+    top: 1px;
+  }
+  .card1 .card-body {
+    line-height: 20px !important;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1440px) {
+  .card1 button {
+    text-align: left !important;
+    font-size: 15px;
+  }
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 86vh;
+  z-index: -1;
+}
+
+/* services clickdropdown css */
+.pluxicon span {
+  position: absolute;
+  right: 34px;
+  top: 8px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #223d92;
+}
+
+.card1 .card-header a {
+  font-size: 16px;
+  color: #000000;
+  text-transform: uppercase !important;
+}
+
+.card1 button:hover,
+.card-header a:hover {
+  color: #f2b721;
+}
+
+.card-body:hover {
+  color: #f2b721;
+}
+
+.demotext.card a {
+  padding-left: 17px;
+}
+
+.demotext span {
+  position: absolute;
+  right: 27px;
+  top: 3px;
+  font-size: 43px;
+  font-weight: 500;
+  color: #1f3f93;
+  transition: 0.8s ease;
+}
+
+.demotext .card-body {
+  font-size: 15px;
+  line-height: 0;
+}
+
+.demotext button {
+  border: none;
+  background: none !important;
+}
+
+.demotext .card-header {
+  margin-bottom: -24px;
+  padding: 0;
+  width: 95%;
+  margin: 0 auto;
+}
+.pluxicon.card-header {
+  height: 52px !important;
+}
+.card1 .card-body {
+  line-height: 10px;
+  border-bottom: 1px #c8c8c8 solid;
+}
+
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+
+  cursor: pointer;
+
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span {
+  display: block;
+  width: 33px;
+  height: 3x;
+  margin-bottom: 5px;
+  position: relative;
+
+  background: #cdcdcd;
+  border-radius: 3px;
+
+  z-index: 1;
+
+  transform-origin: 4px 0px;
+
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+
+.menu_style {
+  background: #34487f !important;
+  width: 95%;
+  margin: auto;
+}
+
+.menu_style .card-body {
+  background: none;
+  padding-bottom: 0px;
+  line-height: 0px !important;
+  position: relative;
+  top: -11px;
+}
+.menu_style .card-body {
+  font-size: 15px !important;
+  line-height: 0;
+}
+.pluxicon111.card-header {
+  background: #223f93 !important;
+  margin-bottom: 10px !important;
+  margin-top: 10px;
+}
+.pluxicon1111 span {
+  position: absolute;
+  right: 27px;
+  top: 3px;
+  font-size: 43px;
+  font-weight: 500;
+  color: #ffffff;
+  transition: 0.8s ease;
+}
+.pluxicon1111 a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff !important;
+}
+.pluxicon111 span {
+  position: absolute;
+  right: 27px;
+  top: 3px;
+  font-size: 43px;
+  font-weight: 500;
+  color: #ffffff;
+  transition: 0.8s ease;
+}
+.pluxicon1111.card-header {
+  background: #223f93 !important;
+}
+.pluxicon111 a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff !important;
+}
+small {
+  text-transform: lowercase;
+}
+div#toggleB {
+  display: none;
+}
+
+/*  */
+.accordionsection span {
+  color: #f2b721;
+  margin-right: 17px;
+}
+
+.accordion-button:after {
+  color: red !important;
+}
+.accordion-button.collapsed::after {
+  color: #f2b721 !important;
+
+  button.accordion-button {
+    border-bottom: 1px solid #ebdbdb !important;
+    border-radius: 0px !important;
+  }
+}
+
+.accordion-button.collapsed {
+  background: blue;
+}
+
+/* ------- accordion of delaware pages ------- */
+
+.box123 .accordion-button::after {
+  content: ">" !important;
+  transform: rotate(180deg) !important;
+  background: none !important;
+  font-size: 24px !important;
+  color: #f2b721 !important;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+
+.box123 .accordion-button:not(.collapsed)::after {
+  transform: rotate(90deg) !important;
+}
+
+/* input radio btn  */
+
+input[type="radio"]:checked {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  outline: none;
+  background: #f8ac1a;
+}
+
+/* radio button */
+.onoff {
+  position: relative;
+  cursor: pointer;
+  width: 64px;
+  height: 36px;
+  margin: 0;
+  top: 4px;
+}
+
+input#checkboxID {
+  visibility: hidden;
+}
+
+.onoff label {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 80%;
+  cursor: pointer;
+  background: #f2b721;
+  border-radius: 20px;
+  color: #fff;
+  text-indent: 27px;
+}
+.onoff label:after {
+  content: "NO";
+  display: block;
+  position: absolute;
+  top: 3px;
+  right: 8px;
+  width: 100%;
+  font-size: 14px;
+  color: #fff;
+  z-index: 1;
+}
+.onoff label:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  z-index: 2;
+  top: 5px;
+  left: 3px;
+  display: block;
+  -webkit-transition: left 0.3s;
+}
+.onoff input:checked + label {
+  background: #f2b721;
+  text-indent: 8px;
+}
+.onoff input:checked + label:after {
+  content: "YES";
+  color: #fff;
+}
+.onoff input:checked + label:before {
+  left: 42px;
+}
+
+#accText {
+  .accordion-collapse {
+    background: white !important;
+  }
+}
+
+#accText {
+  button.accordion-button {
+    box-shadow: none !important;
+  }
+}
+
+.modal-backdrop {
+  opacity: 0.9 !important;
+  background-color: #213e92 !important;
+}
+
+/* footer top icon css start here*/
+
+cite {
+  display: none;
+  cursor: pointer;
+  background: #223f93;
+  color: #fff;
+  padding: 0px 4px;
+  font-size: 28px;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 999;
+}
+/* footer top icon css  end here*/
+/* registration css start */
+.boxCheck input.form-check-input {
+  position: absolute;
+  right: 40px;
+}
+
+.boxCheck .form-check {
+  border-bottom: 1px solid #d4d4d4;
+  padding-bottom: 10px;
+  padding-top: 2px;
+  font-size: 12px;
+}
+.dropdownGlobal .dropdown-menu.show {
+  width: 96% !important;
+  padding: 10px 0px 10px 0px;
+}
+
+.dropdownGlobal .btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  background: #fff !important;
+  color: #686868 !important;
+}
+
+h4.approaches {
+  font-size: 20px !important;
+}
+
+.h3Headings {
+  font-size: 27px;
+  font-weight: 700 !important;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #213e92 !important;
+}
+
+.h3Headings span {
+  font-size: 27px;
+  font-weight: 700 !important;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #f2b721 !important;
+}
+
+/* form country css input */
+.formresss input.PhoneInputInput {
+  background: none !important;
+}
+
+.formresss input#formPhoneNumber {
+  background: none !important;
+  border: none;
+}
+
+.formresss .PhoneInput {
+  background: #fff;
+  padding: 0px !important;
+  padding: 5px !important;
+  height: 47px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.formresss input.PhoneInputInput {
+  margin: 0 !important;
+}
+.formresss input#formPhoneNumber {
+  background: #fff !important;
+  /* width: 672px; */
+}
+
+.registration_forminput__WElQB.form-check input.form-check-input {
+  margin-top: 23px;
+}
+
+/* header menu mobile css */
+.menu_style.mat {
+  margin-top: -10px;
+}
+.pluxicon1111.mt-2.card-header {
+  margin-bottom: 24px !important;
+  margin-top: 2px !important;
+}
+
+.menu_style.margian {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.portfolio_tab .nav-link {
+  transition: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+.nav-underline .nav-link.active,
+.nav-underline .show > .nav-link {
+  color: #f2b721 !important;
+  border-bottom: 3px solid #f2b721 !important;
+}
+/*  */
+
+.text-snippet {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.AccordionItem .accordion-collapse {
+  padding-left: 15px !important;
+}
+
+.modalMainDiv .modal-content {
+  background: #f7faff !important;
+}
+
+a.activeee {
+  color: #926e32 !important;
+}

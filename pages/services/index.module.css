@@ -1,0 +1,1045 @@
+/* banner css */
+.main_padding {
+  padding-left: 2% !important;
+  padding-right: 2% !important;
+}
+
+.bannerMain h1 {
+  letter-spacing: 0.05em;
+  color: #213e92;
+}
+
+.mainbtn {
+  background: #213e92 !important;
+  border: 2px solid #f2b721;
+  border-radius: 23.292px;
+  width: 188.82px;
+  height: 50.9px;
+}
+
+.bannerMain {
+  background: #a6a6ff;
+}
+
+.bannerimg {
+  text-align: right;
+}
+.servicesTopDetailsBox {
+  padding-bottom: 50px !important;
+}
+.bannertext p {
+  color: #000;
+}
+
+/* banner css end */
+
+.ChooseBox p {
+  color: #000 !important;
+  font-weight: 500 !important;
+}
+
+.bannerimg {
+  padding-right: 10%;
+}
+
+/* our services section start */
+
+.pinkbg {
+  background: #f7faff;
+}
+
+.mainHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.serbtn {
+  background: none;
+  border: navajowhite;
+  text-align: center;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+
+.iconSection li {
+  list-style: none;
+  display: inline-block;
+  background: #ffffff;
+  border: 1.84104px px solid #213e92;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50px;
+  margin-right: 15px;
+  font-size: 22px;
+  color: #213e92;
+}
+
+.impotantinfo1 {
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+.bannerinfo1 {
+  background-color: #f5f5f5;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 10%;
+}
+
+.bannerinfo2 {
+  background-color: #f6eeec;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 10%;
+}
+
+.importanceRow {
+  justify-content: flex-start;
+  margin-left: 9%;
+}
+
+.importanceCol {
+  margin-right: 23px;
+  margin-top: 10px;
+  padding: 21px;
+  background-color: #f6eeec;
+}
+
+.servicebox {
+  display: none;
+}
+
+h3.industriesBox {
+  background: #ffffff;
+  padding: 20px;
+  text-align: center;
+  color: #6a6a6a;
+  font-size: 22px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.industriesMain {
+  background: #f5f5f5;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.CUSTOMERS {
+  background: #f5f5f5;
+}
+
+.business1 {
+  background: #213e92;
+  padding: 16px;
+  margin-left: -15px;
+  color: #fff;
+}
+
+.ChooseBox {
+  background-color: #f5f5f5;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.ChooseBox p {
+  color: #6a6a6a;
+}
+
+.getin {
+  background-image: url(https://vcana-website-assets.s3.amazonaws.com/images/emailmarkting/Group311.png);
+  background-size: cover;
+  background-position: center;
+  padding: 111px;
+  height: 616px;
+  width: 100%;
+}
+
+.Accordion {
+  background: #f6eeec !important;
+  margin-bottom: 29px;
+  border: none;
+}
+
+.targ > button {
+  background-color: #f6eeec !important;
+}
+
+.getin h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #213e92;
+}
+
+.getin p {
+  color: #fff;
+  font-size: 16px;
+}
+
+.getin li {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.formBox {
+  border: 2px solid #fff;
+  padding: 30px;
+}
+
+.formBox input {
+  background: none !important;
+  border-bottom: 2px solid #fff !important;
+  border: none;
+  border-radius: 0;
+}
+
+.formBox button {
+  width: 100%;
+  display: block;
+  background: #223f92;
+  color: #fff;
+  padding: 10px;
+  border: none;
+}
+.headChoose p {
+  margin: 0 auto !important;
+}
+
+.headChoose h1 {
+  margin: 0 auto !important;
+}
+
+/* Choose section start */
+.sectionChoose {
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid #9993931a;
+  min-height: 300px;
+  margin: 10px;
+}
+
+.sectionChoose {
+  position: relative;
+}
+
+.sectionChoose:hover:before {
+  width: 100%;
+}
+
+.sectionChoose:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 1%;
+  background: #244093;
+  transition: 0.5s ease;
+  left: 0;
+  bottom: 0;
+  z-index: -9;
+}
+
+.sectionChoose:hover h6 {
+  color: #000000 !important;
+}
+
+.sectionChoose:hover p {
+  color: #000000 !important;
+}
+
+.benefitsbg {
+  padding: 10px 20px 30px;
+  background: #f5f5f5;
+}
+
+.sectionChoose h6 {
+  text-align: left;
+  color: #213e92 !important;
+  font-weight: 600 !important;
+  font-size: 22px !important;
+  padding: 10px 0px 0px 0px;
+}
+
+.sectionChoose p {
+  text-align: left !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  padding: 0px 0px;
+}
+
+.de {
+  width: 94% !important;
+  height: 355px !important;
+  object-fit: cover;
+}
+
+.bannertext {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* 19 july 2023 */
+.ChooseBox h3 {
+  text-align: left !important;
+  font-weight: 700 !important;
+  font-size: 22px !important;
+}
+
+.ChooseBox p {
+  text-align: left;
+}
+
+.blue_bg ::placeholder {
+  color: #fff !important;
+}
+
+.benefits {
+  padding-top: 50px;
+}
+
+/* Mobile Responsive  page */
+.headChoose {
+  padding-bottom: 25px;
+}
+
+.headChoose h1 {
+  width: 80%;
+  line-height: 40px;
+}
+
+.PARTNER h1,
+.rowChoose {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.colwhychoose {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 49%;
+  background-color: white;
+  border-radius: 70px 0px;
+  border: 2px solid #ededed;
+  padding: 25px;
+  height: 235px;
+  margin: 13px 0px;
+}
+
+.colwhychoose:hover {
+  border: 4px solid #f2b72160;
+}
+
+.colwhychoose:hover .imagebackgroundchoose {
+  background-color: #f2b721;
+}
+
+.colwhychoose:hover h6 {
+  color: #f2b721;
+}
+.Choose {
+  padding: 40px 0 50px !important;
+}
+
+.leftsectionchoose div {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: #234093;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftsectionchoose div img {
+  width: 70px;
+  height: 70px;
+}
+
+.rightsectionchoose {
+  margin-left: 20px;
+}
+
+.rightsectionchoose h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #213e92;
+}
+
+.rightsectionchoose p {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.section-services {
+  font-family: "Poppins", sans-serif;
+  background-color: #e6edf7;
+  color: #202020;
+  padding-top: 115px;
+  padding-bottom: 120px;
+}
+
+.section-services .header-section {
+  margin-bottom: 34px;
+}
+
+.section-services .header-section .title {
+  position: relative;
+  padding-bottom: 14px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.section-services .header-section .title:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(30px);
+  width: 10px;
+  height: 3px;
+  background-color: #504f93;
+  border-radius: 3px;
+}
+
+.section-services .header-section .description {
+  font-size: 14px;
+  color: #282828;
+}
+
+.section-services .single-service {
+  position: relative;
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px 30px;
+  overflow: hidden;
+}
+
+.section-services .single-service .content {
+  position: relative;
+  z-index: 20;
+}
+
+/* .section-services .single-service .circle-before {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  transform: translate(40%, -40%);
+  width: 150px;
+  height: 150px;
+  background-color: #ff4500;
+  border: 6px solid #504f93;
+  border-radius: 50%;
+  opacity: 0.5;
+  z-index: 10;
+  transition: all 0.6s;
+}
+
+.section-services .single-service:hover .circle-before {
+  width: 100%;
+  height: 100%;
+  transform: none;
+  border: 0;
+  border-radius: 0;
+  opacity: 1;
+}
+
+.section-services .single-service .icon {
+  display: inline-block;
+  margin-bottom: 26px;
+  width: 70px;
+  height: 70px;
+  background-color: #ff4500;
+  border-radius: 5px;
+  line-height: 70px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  transition: all 0.3s;
+}
+
+.section-services .single-service:hover .icon {
+  background-color: #fff;
+  color: #ff4500;
+} */
+
+.section-services .single-service .title {
+  margin-bottom: 18px;
+  font-weight: 700;
+  font-size: 23px;
+  transition: color 0.3s;
+}
+
+.section-services .single-service:hover .title {
+  color: #fff;
+}
+
+.section-services .single-service .description {
+  margin-bottom: 20px;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.section-services .single-service:hover .description {
+  color: #fff;
+}
+
+.section-services .single-service a {
+  position: relative;
+  font-size: 18px;
+  color: #202020;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.section-services .single-service:hover a {
+  color: #fff;
+}
+
+.section-services .single-service a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #ff4500;
+  transition: background-color 0.3s;
+}
+
+.section-services .single-service:hover a:after {
+  background-color: #fff;
+}
+
+.ChooseBox:nth-child(2) {
+  background: #f2b721 !important;
+}
+
+/* .ChooseBox:nth-child(2) h3 {
+  color: #213e92 !important;
+} */
+
+.ChooseBox:nth-child(3) {
+  background: #f4622a !important;
+}
+
+/* .ChooseBox:nth-child(3) h3 {
+  color: #213e92 !important;
+} */
+
+.ChooseBox {
+  background: #254194;
+}
+
+.ChooseBox h3,
+.ChooseBox p {
+  color: #fff !important;
+}
+
+.PARTNER {
+  color: #ffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 40px;
+  background: url("https://vcana-website-assets.s3.amazonaws.com/images/banners/ctabgg.webp");
+}
+
+.PARTNER h4,
+.PARTNER p {
+  color: #fff !important;
+  text-align: left;
+  font-size: 24px !important;
+}
+
+.PARTNER button {
+  background: #234093;
+  color: #fff;
+  border: none;
+  padding: 7px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 23px;
+}
+
+.cmx h5 {
+  text-align: left;
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.btnr {
+  text-align: left;
+}
+
+.btnr a button {
+  background-color: #f2b721;
+  padding: 10px 32px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.PARTNER button {
+  animation: alltuchtopdown 1.5s ease-in-out 0s infinite alternate;
+  animation-duration: 3s;
+}
+
+.services_web h3 {
+  text-transform: uppercase;
+}
+
+@keyframes alltuchtopdown {
+  0% {
+    transform: rotateX(0deg) translateY(0);
+  }
+
+  50% {
+    transform: rotateX(0deg) translateY(-20px);
+  }
+
+  to {
+    transform: rotateX(0deg) translateY(0);
+  }
+}
+
+/* here is media query css */
+
+@media (max-width: 767px) {
+  .main_padding {
+    padding: 0px !important;
+  }
+  .benefitsbg {
+    padding: 0px;
+  }
+  .de {
+    display: none;
+  }
+  .btnr a button {
+    padding: 10px 10px !important;
+    font-size: 15px !important;
+  }
+  .bannertexttab {
+    padding: 0 12px !important;
+  }
+  .bannerinfo img {
+    width: 100%;
+  }
+
+  h3.serviceCard {
+    font-size: 14px !important;
+    text-align: center !important;
+  }
+
+  .headChoose h1,
+  .headChoose p {
+    width: 100%;
+  }
+
+  .bannerinfo {
+    margin-top: 0px;
+    padding: 12px !important;
+  }
+
+  .bannerdetail {
+    padding: 20px;
+  }
+
+  .pinkbg {
+    margin-right: 0px;
+    padding: 20px 0;
+  }
+
+  .mainHedding1 {
+    margin-top: 10px;
+    font-size: 21px !important;
+    text-align: center !important;
+  }
+
+  .contact-us {
+    padding: 20px;
+    margin-right: 0px;
+  }
+
+  .ChooseBox h3 {
+    font-size: 16px !important;
+    text-align: center !important;
+  }
+  .ChooseBox p {
+    text-align: center;
+  }
+
+  .rightsectionchoose h3 {
+    margin-top: 15px;
+    text-align: center !important;
+    font-size: 21px;
+  }
+
+  .rightsectionchoose p {
+    text-align: center !important;
+  }
+
+  .benefits {
+    padding: 0px !important;
+  }
+
+  .headChoose h1,
+  .headChoose span,
+  .benefits h1,
+  .benefits span {
+    line-height: 29px;
+    font-size: 22px !important;
+  }
+
+  .PARTNER {
+    margin: 0px !important;
+    padding: 20px !important;
+  }
+
+  .cmx h5 {
+    font-size: 13px !important;
+  }
+
+  .PARTNER h4 {
+    font-weight: 700 !important;
+    line-height: 24px !important;
+    font-size: 16px !important;
+    text-align: center;
+  }
+  .btnr {
+    text-align: center;
+  }
+
+  .blue_bg li {
+    width: 36px !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    margin-right: 20px !important;
+    font-size: 20px !important;
+  }
+
+  .bannertext {
+    padding: 20px 13px 0px;
+  }
+
+  .Choose {
+    padding: 0px 0px 20px 0px !important;
+  }
+
+  .faq {
+    padding-left: 8% !important;
+    margin-bottom: 3%;
+  }
+
+  .bannertext p {
+    padding-right: 0% !important;
+  }
+
+  .ServiceLayout {
+    padding: 0px;
+  }
+
+  .de {
+    width: 100% !important;
+    display: none;
+  }
+
+  .colwhychoose {
+    display: flex;
+    width: auto;
+    padding: 25px 10px !important;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .bannerinfo img {
+    width: auto;
+  }
+
+  .single_service {
+    margin-top: 0px;
+    margin: 0px 10px;
+    margin-bottom: 0px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .rowChoose {
+    margin-left: 0px !important;
+    margin-bottom: 40px;
+  }
+  .de {
+    display: none;
+  }
+  .imgBoxatab {
+    width: 100%;
+  }
+  .de {
+    width: 99% !important;
+  }
+  .headChoosefirst h1 {
+    font-size: 28px !important;
+  }
+
+  .bannertexttab {
+    width: 100%;
+  }
+  .bannertexttab p {
+    font-size: 15px !important;
+    text-align: center !important;
+  }
+  .ChooseBox h3,
+  .ChooseBox p {
+    text-align: center !important  ;
+  }
+  .mainHedding1 {
+    margin-top: 15px;
+    font-size: 25px !important;
+    text-align: center !important;
+  }
+  .servicesTopDetailsBox {
+    padding-bottom: 30px !important;
+    margin-top: 40px !important;
+  }
+  .colwhychoose {
+    width: 100%;
+  }
+
+  .sectionChoose {
+    width: 97% !important;
+  }
+
+  .services h1 {
+    width: 100% !important;
+  }
+  .headChoose h1 {
+    width: 95%;
+    line-height: 40px;
+  }
+
+  .services p {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .main_service {
+    height: 430px !important;
+  }
+  .de {
+    width: 99% !important;
+  }
+  .colwhychoose {
+    width: 100%;
+  }
+  .rowChoose {
+    margin-bottom: 0px;
+  }
+
+  .PARTNER h4,
+  .PARTNER p {
+    font-size: 22px !important;
+  }
+
+  .headChoose h1 {
+    width: 99%;
+  }
+  .benefits br {
+    display: none;
+  }
+  .ChooseBox h3,
+  .ChooseBox p {
+    text-align: center !important  ;
+  }
+  .mainHedding1 {
+    margin-top: 15px;
+    font-size: 25px !important;
+    text-align: center !important;
+  }
+  .bannertexttab p {
+    font-size: 15px !important;
+    text-align: center !important;
+  }
+
+  .sectionChoose {
+    height: 400px;
+  }
+
+  .bannertext {
+    padding: 20px;
+  }
+
+  .btnr a button {
+    background-color: #f2b721;
+    padding: 8px 25px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1365px) {
+  .mainHedding1,
+  .mainHedding1 span {
+    font-size: 25px !important;
+  }
+  .servicesTopDetailsBox {
+    padding-bottom: 20px !important;
+  }
+  .bannertexttab p {
+    font-size: 17px !important;
+    line-height: 32px !important;
+  }
+  .rectangleDiv {
+    width: 96%;
+    padding: 0px 10px 27px;
+  }
+
+  .headChoose h1,
+  .headChoose span,
+  .benefits h1,
+  .benefits span {
+    line-height: 30px;
+    font-size: 25px !important;
+  }
+
+  .colwhychoose {
+    height: 260px !important;
+  }
+
+  .de {
+    height: 380px !important;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1440px) {
+  .Choose {
+    padding: 40px 0 0px !important;
+  }
+
+  .mainHedding1,
+  .mainHedding1 span {
+    font-size: 28px !important;
+  }
+  .btnr a button {
+    font-size: 16px;
+  }
+  .rightsectionchoose p {
+    font-size: 14px !important;
+  }
+  .servicesTopDetailsBox {
+    padding-bottom: 30px !important;
+  }
+
+  .headChoose h1,
+  .headChoose span,
+  .benefits h1,
+  .benefits span {
+    line-height: 29px;
+    font-size: 24px !important;
+  }
+
+  .colwhychoose {
+    padding: 25px 10px 10px !important;
+    height: 205px !important;
+  }
+
+  .de {
+    height: 350px !important;
+  }
+}
+
+@media (min-width: 1820px) and (max-width: 1920px) {
+  .de {
+    height: 300px !important;
+  }
+}
+
+/* mobile services css */
+.iconmoblie img {
+  width: 31px;
+  object-fit: contain;
+}
+.iconmoblie {
+  padding: 6px;
+  background: #f2b721;
+  border-radius: 12px;
+  margin-bottom: 29px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 20px;
+}
+.iconmoblie a {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
+.iconmoblie li {
+  list-style: none;
+  display: inline-block;
+}
+.iconmoblie h5 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #213e92;
+}
+.iconmoblie ul {
+  display: flex;
+  justify-content: space-between;
+}
+.hovermobile {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 4px;
+  height: 200px;
+}
+.mobileService button {
+  background: none !important;
+  border: none;
+}
+.mobileService button:hover {
+  background: none;
+  border: none;
+}
+.mobileService ::after {
+  font-size: 27px;
+  color: #1f3f93;
+}
+.mobileService button:active {
+  background: none !important;
+  border: none;
+}
+.mobileService .btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  background: none !important;
+  border: none;
+}

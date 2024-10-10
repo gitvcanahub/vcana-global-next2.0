@@ -1,0 +1,340 @@
+.maindetail {
+  background: #213e92;
+  margin-right: 30px !important;
+}
+
+.bgcolore {
+  background-color: white;
+}
+
+.rightsidefirst h1 {
+  font-size: 25px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.05em;
+  color: #213e92 !important;
+  text-transform: capitalize;
+}
+
+.rightmp,
+.maindetails {
+  margin: 0px;
+  padding: 0;
+}
+
+.sidefirst {
+  border-radius: 25px !important;
+  margin: 0 30px 0 0;
+}
+
+.frame__lines {
+  background: #fff;
+  width: 16px;
+  height: 3px;
+  border-radius: 3px;
+  position: absolute;
+  right: 14px;
+  top: 18px;
+}
+
+.frame__lines:before {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  position: absolute;
+  content: "";
+  left: 0;
+  top: -7px;
+}
+
+.frame__lines:after {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  position: absolute;
+  content: "";
+  top: 7px;
+  left: 0;
+}
+
+.rightside {
+  margin: 0 15px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+}
+
+.rightsidefirst {
+  padding: 0 0 3% !important;
+}
+
+.projectdetail {
+  margin-top: 10px;
+  padding: 0 !important;
+}
+
+.projectinfo {
+  font-size: 23px !important;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #706d6d84 !important;
+}
+
+.rightside p {
+  margin: 0px;
+  font-size: 16px;
+  display: inline;
+}
+
+.projectdetail h5 {
+  padding-top: 5px;
+  font-size: 20px;
+  color: #213e92;
+  font-weight: 500 !important;
+}
+
+.projectdetail h5 span,
+.projectdetail h5 span a {
+  padding: 0 5px;
+  font-size: 15px;
+  color: #f2b721;
+  font-weight: 400 !important;
+}
+
+.projectdetail h5 span a:hover {
+  cursor: text;
+}
+
+.btnhover:hover {
+  background-color: #f2b721 !important;
+}
+
+.btnhover {
+  margin-top: 20px;
+  background-color: #f2b721 !important;
+  border: #f2b721 !important;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.btnhover:hover:after {
+  left: 5% !important;
+  width: 90% !important;
+  transform: skewX(25deg) !important;
+}
+
+.btnhover:after {
+  background-color: #223f92;
+  content: "";
+  height: 100% !important;
+  left: 50% !important;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  transform: skewX(0) !important;
+  transition: all 0.1s ease 0s !important;
+  width: 0;
+  z-index: -1;
+  -webkit-transition: all 0.1s ease 0s !important;
+  -moz-transition: all 0.1s ease 0s !important;
+  -ms-transition: all 0.1s ease 0s !important;
+  -o-transition: all 0.1s ease 0s !important;
+  -webkit-transform: skewX(0) !important;
+  -moz-transform: skewX(0) !important;
+  -ms-transform: skewX(0) !important;
+  -o-transform: skewX(0) !important;
+}
+
+/* new css */
+
+.porfolioimg {
+  width: 100%;
+  height: 74vh;
+  padding: 0 1px;
+  overflow: hidden;
+}
+
+.porfolioimg:hover {
+  bottom: 0;
+  width: 100%;
+  height: 74vh;
+  padding: 0 1px;
+  overflow: hidden;
+}
+
+.frame__head2 {
+  background: #213e92;
+  height: 2px;
+}
+
+.frame__head {
+  width: 100%;
+  padding: 10px 40px 10px 55px;
+  background: #213e92;
+  position: relative;
+  height: 40px;
+}
+
+.frame__dots:before {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: -12px;
+  content: "";
+}
+
+.frame__dots:after {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 12px;
+  content: "";
+}
+
+.addressbar a {
+  color: #636161;
+}
+
+.addressbar {
+  font-size: 12px;
+  line-height: 1;
+  display: block;
+  text-align: left;
+  background: #fff;
+  border-radius: 3px;
+  height: 20px;
+  padding: 4px 8px;
+  color: #636161;
+}
+
+.frame__dots {
+  background: #fff;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  position: absolute;
+  left: 22px;
+  top: 16px;
+}
+
+.porfolioimg img {
+  transition: transform ease-in 15s;
+  width: 100%;
+  bottom: -1210px;
+  transition: all 11s;
+}
+
+.porfolioimg:hover img {
+  transform: translateY(-90.8%);
+  bottom: 0px;
+  transition: all 11s;
+  -webkit-transition: all 11s;
+  -moz-transition: all 11s;
+  -ms-transition: all 11s;
+  -o-transition: all 11s;
+}
+
+/* here is the css of mobileRESP */
+@media (max-width: 767px) {
+  .maindetail {
+    margin: 0 10px !important;
+  }
+  .PortFolioDetail img {
+    overflow: scroll;
+    height: 500px;
+  }
+  .tabresp {
+    margin: 0 0px !important;
+  }
+
+  .rightside {
+    margin: 20px 10px 0 !important;
+  }
+
+  .maindetails {
+    padding-bottom: 30px !important;
+  }
+  .screen {
+    overflow: scroll;
+    height: 900px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .maindetail {
+    background: #213e92;
+    margin-right: 0px !important;
+  }
+
+  .porfolioimg:hover img {
+    transform: translateY(-85%);
+  }
+
+  .tabresp,
+  .tabresp2 {
+    width: 100% !important;
+  }
+
+  .rightside {
+    margin: 35px 10px 0 !important;
+  }
+
+  .rightmp {
+    margin: 0px;
+    padding: 0px !important;
+  }
+}
+
+.frame {
+  width: 100%;
+  background: #fff;
+  border-radius: 2px;
+  position: relative;
+  border-right-width: 3px;
+}
+
+.screen {
+  display: block;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 1px;
+  margin: 0 auto;
+}
+
+.screen img {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  transform: translateY(0);
+  transition: 10s ease-out;
+  -webkit-transition: 10s ease-out;
+  -moz-transition: 10s ease-out;
+  -ms-transition: 10s ease-out;
+  -o-transition: 10s ease-out;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+}
+.screen:hover img {
+  object-fit: contain;
+  transform: translateY(calc(-100% + 400px));
+  transition: 10s ease-out;
+  -webkit-transition: 10s ease-out;
+  -moz-transition: 10s ease-out;
+  -ms-transition: 10s ease-out;
+  -o-transition: 10s ease-out;
+  -webkit-transform: translateY(calc(-100% + 400px));
+  -moz-transform: translateY(calc(-100% + 400px));
+  -ms-transform: translateY(calc(-100% + 400px));
+  -o-transform: translateY(calc(-100% + 400px));
+}

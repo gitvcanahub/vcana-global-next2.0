@@ -1,0 +1,463 @@
+.cardreletive {
+  position: relative;
+  width: 89%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardive {
+  margin-left: 4.6%;
+}
+
+.cardmrgin1 {
+  position: relative;
+  margin: 0 0 30px 30px;
+}
+
+.leftaout {
+  margin-bottom: 40px !important;
+}
+
+.mainlog {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.cardmargin1:nth-child(odd) {
+  margin-right: 25px !important;
+  margin-bottom: 30px !important;
+}
+
+.cardresponsive {
+  position: absolute;
+  right: 0px;
+  background-color: #f2b721;
+  padding: 10px 40px;
+  color: white;
+  font-size: 19px;
+}
+
+.dateleftborder {
+  border-left: 2px solid white;
+  margin-left: 8px;
+  padding-left: 8px;
+}
+
+.cardbg {
+  overflow: hidden;
+  max-height: auto;
+  background: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cardtittle a {
+  color: #213e92;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+}
+
+.pegination li {
+  padding: 10px !important;
+}
+
+.pegination a.page-link {
+  color: #001 !important;
+  font-size: 20px;
+}
+
+.cardtext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #6a6a6a;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.pegination {
+  display: flex;
+  justify-content: center;
+}
+
+.cardlink {
+  background: #ffffff;
+  position: absolute !important;
+  bottom: 0px;
+  width: 95%;
+  left: 17px;
+  height: 42px;
+}
+
+.cardbtn:hover {
+  background-color: #f2b721 !important;
+}
+
+.cardbtn {
+  font-size: 12px !important;
+  background-color: #f2b721 !important;
+  border: #f2b721 !important;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.cardbtn:hover:after {
+  left: 5% !important;
+  width: 90% !important;
+  transform: skewX(25deg) !important;
+}
+
+.cardbtn:after {
+  background-color: #223f92;
+  content: "";
+  height: 100% !important;
+  left: 50% !important;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  transform: skewX(0) !important;
+  transition: all 0.1s ease 0s !important;
+  width: 0;
+  z-index: -1;
+  -webkit-transition: all 0.1s ease 0s !important;
+  -moz-transition: all 0.1s ease 0s !important;
+  -ms-transition: all 0.1s ease 0s !important;
+  -o-transition: all 0.1s ease 0s !important;
+  -webkit-transform: skewX(0) !important;
+  -moz-transform: skewX(0) !important;
+  -ms-transform: skewX(0) !important;
+  -o-transform: skewX(0) !important;
+}
+
+.cardbg:hover a,
+.cardbg:hover p {
+  color: #050505;
+}
+
+.cardbg:hover .cardbtn {
+  color: #ffffff;
+  background: #264294;
+}
+
+.cardtext p {
+  text-align: left !important;
+  text-indent: 0em !important;
+  font-family: "__Poppins_b3ba81" !important;
+  color: #6a6a6a !important;
+  font-size: 16px !important;
+  line-height: 21px !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.cardtext p span {
+  color: #6a6a6a !important;
+  font-size: 16px !important;
+}
+
+.cardtext {
+  text-align: left;
+  height: 77px;
+  line-height: 20px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 23 july 2023 */
+.cardmrgin1 img {
+  height: 300px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  object-fit: cover;
+}
+
+.cardtittle a {
+  height: 200px;
+}
+
+.cardmrgin1 {
+  height: 500px;
+  border: none;
+  margin-bottom: 10%;
+}
+
+.pagination .active > .page-link,
+.page-link.active {
+  z-index: 3;
+  color: var(--bs-pagination-active-color);
+  background-color: #f4622a !important;
+  border-color: #f4622a !important;
+}
+
+.pagination a {
+  color: #000;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+/* 23 july 2023 */
+
+@media (max-width: 768px) {
+  .pegination li {
+    padding: 5px !important;
+  }
+  .cardmrgin1 img {
+    height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    object-fit: unset;
+  }
+  .cardtittle a {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .testimonialswidth {
+    max-width: 98%;
+    margin: auto !important;
+  }
+
+  .leftaout {
+    max-width: 93%;
+    margin: auto;
+  }
+
+  .cardmrgin1 {
+    min-height: 425px;
+    margin: 20px 0;
+    width: 100% !important;
+  }
+
+  .cardresponsive {
+    padding: 6px 29px;
+    font-size: 15px;
+  }
+
+  .cardmargin {
+    min-width: 90%;
+    margin: auto !important;
+  }
+
+  .mainlayout {
+    padding: 0px !important;
+  }
+
+  .cardive {
+    margin: 0% !important;
+  }
+
+  .mainlayout {
+    padding: 0px !important;
+  }
+
+  .container-fluid {
+    padding: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cardive {
+    margin: auto;
+  }
+
+  .cardreletive {
+    width: 100%;
+  }
+
+  .pegination li {
+    padding: 5px !important;
+  }
+
+  .cardtittle a {
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .testimonialswidth {
+    max-width: 100%;
+  }
+
+  .cardmargin {
+    min-width: 95% !important;
+    margin: auto !important;
+  }
+
+  .testimonialswidth {
+    max-width: 98%;
+    margin: auto !important;
+  }
+
+  .leftaout {
+    max-width: 93%;
+    margin: auto;
+  }
+
+  .cardmrgin1 {
+    min-width: 70%;
+    min-height: 425px;
+    margin: 20px 0;
+  }
+
+  .cardresponsive {
+    padding: 12px 36px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .cardreletive {
+    width: 95%;
+  }
+
+  .cardtittle a {
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .cardive {
+    margin-left: 0% !important;
+  }
+
+  .cardtittle {
+    margin: 0px !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1279px) {
+  .cardmrgin1 img {
+    height: 222px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1365px) {
+  .cardreletive {
+    width: 100%;
+  }
+
+  .cardtittle a {
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .cardive {
+    margin-left: 0% !important;
+  }
+
+  .cardtittle {
+    margin: 0px !important;
+  }
+  .cardmrgin1 img {
+    height: 222px;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1665px) {
+  .cardive {
+    margin: auto;
+  }
+
+  .cardlink {
+    bottom: 0px !important;
+    height: 46px !important;
+  }
+  .cardmrgin1 img {
+    height: 238px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .sideImage {
+    background-size: cover;
+  }
+
+  .pegination li {
+    padding: 5px !important;
+  }
+
+  .cardtittle a {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .cardmargin {
+    margin: auto !important;
+  }
+
+  .testimonialswidth {
+    max-width: 98%;
+    margin: auto !important;
+  }
+
+  .leftaout {
+    max-width: 93%;
+    margin: auto;
+  }
+
+  .cardmrgin1 {
+    min-height: auto !important;
+    margin: 20px 10px 20px 20px;
+    margin-top: 0px;
+  }
+
+  .cardresponsive {
+    padding: 12px 36px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1666px) and (max-width: 1920px) {
+  .getintouchpadding {
+    margin-right: 15px !important;
+  }
+}
+
+.blogs {
+  margin-bottom: 40px;
+}
+
+/* skelton csss start */
+
+.img_skelton {
+  width: 100%;
+  height: 300px;
+}
+
+.cardmrgin1 {
+  width: 95%;
+  background-color: #0000008b;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  height: 520px;
+}
+.cardmrginmain {
+  width: auto;
+  border-radius: 6px;
+  height: auto;
+  margin: 0px;
+  padding: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background: #fff !important;
+  margin: 10px;
+}
+.loading {
+  height: 20px;
+  margin-top: 30px;
+}
+.loading1 {
+  height: 20px;
+  margin-top: 10px;
+}
+
+.loadingtext {
+  height: 70px;
+  margin-top: 10px;
+}
+.loadingbtn {
+  height: 32px;
+  margin-top: 10px;
+  width: 97px;
+}

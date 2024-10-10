@@ -1,0 +1,764 @@
+/* hero-banner */
+.impactps {
+  font-size: 18px;
+  line-height: 32px;
+  color: #6a6a6a;
+}
+
+.main_padding {
+  padding-left: 4% !important;
+  padding-right: 4% !important;
+}
+.main_padding1 {
+  padding-left: 2% !important;
+  padding-right: 2% !important;
+}
+
+.delwares {
+  width: 95% !important;
+  height: 770px;
+}
+
+.bannerAdjust {
+  padding: 0 0 50px 0 !important;
+}
+
+/* hero-banner end */
+
+/* Our SEO Services  start */
+.pinkbgs {
+  padding: 50px 10px 0px 0px;
+  background: rgba(245, 245, 245, 1);
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Our SEO Services  end */
+
+/*  CTA*/
+
+.PARTNER {
+  color: #ffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 40px;
+  background-color: #234093;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.PARTNER h4 {
+  font-size: 24px;
+}
+
+.PARTNER h4,
+.PARTNER p {
+  color: #fff !important;
+  text-align: left;
+}
+
+.btnr {
+  text-align: left;
+}
+
+.cmx h5 {
+  text-align: left;
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.btnr a button {
+  background-color: #f2b721;
+  padding: 10px 32px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.PARTNER button {
+  background: #234093;
+  color: #fff;
+  border: none;
+  padding: 7px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 23px;
+}
+
+/* WHY CHOOSE US  start */
+
+/* here is the css of choose us */
+.benefits {
+  padding-top: 50px;
+}
+
+.chosesec {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.chooseaim {
+  min-height: 290px;
+  padding: 40px 20px;
+  border-right: 1px dashed #a9a9a9;
+  border-bottom: 1px dashed #a9a9a9;
+  margin: 0px;
+  padding-bottom: 0;
+}
+
+.chooseaim p {
+  color: #6a6a6a;
+  font-size: 15px !important;
+  font-weight: 400;
+  line-height: 22.787px;
+}
+
+.chooseaim h3 {
+  padding: 10px 0 0 0px;
+  color: #213e92 !important;
+  font-size: 21px !important;
+  font-weight: 600 !important;
+  line-height: 30.383px;
+}
+
+.chooseaim:nth-child(3) {
+  border-right: none !important;
+}
+
+.chooseaim:nth-child(4) {
+  border-bottom: none !important;
+}
+
+.chooseaim:nth-child(5) {
+  border-bottom: none !important;
+}
+
+.chooseaim:nth-child(6) {
+  padding: 10px;
+  border-bottom: none !important;
+  border-right: none !important;
+}
+
+.choosebg {
+  display: flex;
+  height: 95%;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15px;
+  padding: 50px 15px;
+  background-size: cover !important;
+  background: #213e92
+    url("https://vcana-website-assets.s3.amazonaws.com/images/banners/smallcta.webp");
+  background-repeat: no-repeat;
+}
+
+.choosebg p {
+  color: #d7d7d7;
+  font-size: 18px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.choosebg h4 {
+  color: #fff !important;
+  font-size: 22px !important;
+  font-weight: 600 !important;
+  line-height: 26px !important;
+}
+
+.chooseaim:hover {
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.fey img {
+  margin-bottom: 24px;
+}
+
+.fey p {
+  font-size: 14px;
+}
+
+.bgback {
+  background: #f5f5f5;
+  padding: 50px 0px;
+}
+
+.btnhover:hover {
+  background-color: #f2b721 !important;
+}
+
+.btnhover {
+  margin-top: 30px;
+  background-color: #f2b721 !important;
+  border: #f2b721 !important;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.eAnimat {
+  animation: alltuchtopdown 1.5s ease-in-out 0s infinite alternate;
+  animation-duration: 3s;
+}
+
+@keyframes alltuchtopdown {
+  0% {
+    transform: rotateX(0deg) translateY(0);
+  }
+
+  50% {
+    transform: rotateX(0deg) translateY(-20px);
+  }
+
+  to {
+    transform: rotateX(0deg) translateY(0);
+  }
+}
+
+.btnhover:hover:after {
+  left: 5% !important;
+  width: 90% !important;
+  transform: skewX(25deg) !important;
+}
+
+.btnhover:after {
+  background-color: #223f92;
+  content: "";
+  height: 100% !important;
+  left: 50% !important;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  transform: skewX(0) !important;
+  transition: all 0.1s ease 0s !important;
+  width: 0;
+  z-index: -1;
+  -webkit-transition: all 0.1s ease 0s !important;
+  -moz-transition: all 0.1s ease 0s !important;
+  -ms-transition: all 0.1s ease 0s !important;
+  -o-transition: all 0.1s ease 0s !important;
+  -webkit-transform: skewX(0) !important;
+  -moz-transform: skewX(0) !important;
+  -ms-transform: skewX(0) !important;
+  -o-transform: skewX(0) !important;
+}
+
+/* benefit css */
+
+.benefitbg {
+  background: #f5f5f5;
+  padding: 50px 0px 20px 0;
+}
+
+.boxbg {
+  margin-right: 15px !important;
+  padding: 30px 25px !important;
+  background: #213e92;
+}
+
+.boxbg h3 {
+  text-align: left !important;
+  font-weight: 600 !important;
+  color: #fff !important;
+  font-size: 28px !important;
+}
+
+.boxbg p {
+  text-align: left;
+  color: #fff !important;
+  font-size: 16px !important;
+  margin: 0;
+}
+
+.boxbg:nth-child(3),
+.boxbg:nth-child(6),
+.boxbg:nth-child(9) {
+  background: #f2b721 !important;
+}
+
+.boxbg:nth-child(4),
+.boxbg:nth-child(7),
+.boxbg:nth-child(10) {
+  background: #f4622a !important;
+}
+
+/* WHY CHOOSE US  end */
+
+.testimoinales {
+  margin-top: 100px;
+}
+
+.Choose {
+  padding: 70px 0px;
+  margin: 0 0 0 140px;
+}
+
+/* Choose section start */
+.sectionChoose {
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 17px;
+  border: 1px solid #9993931a;
+  width: 30%;
+}
+
+.sectionChoose {
+  position: relative;
+}
+
+.main_img {
+  position: relative;
+}
+.ChooseBox h2 {
+  text-align: left !important;
+  font-weight: 700 !important;
+  color: #213e92;
+  font-size: 22px !important;
+}
+
+.ChooseBox p {
+  text-align: left;
+}
+
+.blue_bg ::placeholder {
+  color: #fff !important;
+}
+
+.benefits {
+  padding-top: 50px;
+}
+
+/* Mobile Responsive  page */
+@media (max-width: 767px) {
+  .benefitbg {
+    background: #f5f5f5;
+    padding: 30px 10px 20px;
+  }
+
+  .sectionChoose {
+    width: 100%;
+  }
+  .topdjust {
+    padding-bottom: 10px !important;
+  }
+
+  .WhyChooseUS {
+    margin-bottom: 0px;
+  }
+
+  .main_padding {
+    padding: 2% !important;
+  }
+
+  .rowChoose {
+    margin-left: 0px;
+  }
+
+  .serinclude span {
+    font-size: 25px !important;
+  }
+
+  .sectionChoose {
+    margin: 10px;
+  }
+
+  .delwares {
+    width: 100% !important;
+    height: auto;
+  }
+
+  .PARTNER {
+    margin: 0px !important;
+    padding: 20px !important;
+  }
+
+  .PARTNER h4 {
+    font-weight: 700 !important;
+    line-height: 24px !important;
+    font-size: 21px !important;
+  }
+
+  .bannerinfo {
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .bannerAdjust {
+    padding: 0px 10px 0px 10px !important;
+  }
+
+  .impactps {
+    margin-top: 20px;
+  }
+  .main_padding1 {
+    padding-left: 0% !important;
+  }
+
+  .pinkbgs {
+    padding: 20px 0;
+  }
+
+  .pinkbgs {
+    margin: 0px 0 0 25px;
+  }
+
+  .bannerdetail {
+    padding: 20px;
+  }
+
+  .pinkbgs {
+    padding: 20px 0;
+    margin-right: 0px !important;
+  }
+
+  .bannertext {
+    padding-left: 34px;
+  }
+
+  .Choose {
+    padding: 30px 10px;
+  }
+
+  .faq {
+    padding-left: 8% !important;
+    margin-bottom: 3%;
+  }
+
+  .bannertext p {
+    padding-right: 0% !important;
+  }
+
+  .ServiceLayout {
+    padding: 0px;
+  }
+  .boxbg h3 {
+    font-size: 23px !important;
+  }
+  .chooseaim p,
+  .choosebg h4,
+  .boxbg h3,
+  .boxbg p {
+    text-align: center !important;
+  }
+  .choosebg {
+    align-items: center;
+  }
+  .chooseaim {
+    display: flex;
+    border-right: none !important;
+    border-bottom: 1px dashed #a9a9a9 !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chooseaim:nth-child(4) {
+    border-bottom: 1px dashed #a9a9a9 !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 820px) {
+  .mainHedding1,
+  .mainHedding1 span {
+    text-align: center !important;
+    font-size: 22px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .benefitbg {
+    background: #f5f5f5;
+    padding: 30px 10px 20px;
+  }
+  .chooseaim:nth-child(2),
+  .chooseaim:nth-child(4),
+  .chooseaim:nth-child(6) {
+    border-right: none !important;
+  }
+  .chooseaim:nth-child(4) {
+    border-bottom: 1px dashed #a9a9a9 !important;
+  }
+  .chooseaim:nth-child(1),
+  .chooseaim:nth-child(3),
+  .chooseaim:nth-child(5) {
+    border-right: 1px dashed #a9a9a9 !important;
+  }
+
+  .main_padding1 {
+    font-size: 25px !important;
+    text-align: left;
+    margin-top: 20px !important;
+    margin-bottom: 0px;
+    text-align: center !important;
+  }
+  .topdjust {
+    padding-top: 35px !important;
+  }
+  .pinkbgs {
+    padding: 20px 10px 0px 0px;
+  }
+  .delwares {
+    width: 95% !important;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .servicesgrid {
+    height: 490px;
+  }
+
+  .main_padding1 span,
+  .main_padding1 span {
+    font-size: 25px !important;
+  }
+
+  .PARTNER h4 {
+    font-size: 22px !important;
+  }
+  .main_padding,
+  .main_padding1 {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+  .bannerinfo {
+    text-align: center;
+  }
+
+  .WhyChooseUS {
+    margin-bottom: 0px;
+  }
+
+  .impactps {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center !important;
+  }
+
+  .bannerAdjust {
+    padding: 0px 10px 0px 10px !important;
+  }
+
+  .slide_heightseo {
+    height: 330px !important;
+  }
+  .slide_heightseo h6 {
+    font-size: 50px !important ;
+    line-height: 16px;
+  }
+  .slide_heightseo h4 {
+    font-size: 14px !important;
+  }
+  .slide_heightseo p {
+    font-size: 12px !important;
+  }
+  .boxbg h3 {
+    font-size: 23px !important;
+  }
+  .chooseaim p,
+  .choosebg h4,
+  .boxbg h3,
+  .boxbg p {
+    text-align: center !important;
+  }
+  .choosebg {
+    align-items: center;
+  }
+  .chooseaim {
+    display: flex;
+    border-right: none !important;
+    border-bottom: 1px dashed #a9a9a9 !important;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .mainHedding1 {
+    text-align: center !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+
+  .WhyChooseUS {
+    padding: 0 10px;
+    margin-left: 15px;
+  }
+  .boxbg h3 {
+    font-size: 23px !important;
+  }
+  .chooseaim p,
+  .chooseaim h3,
+  .choosebg h4,
+  .boxbg h3,
+  .boxbg p {
+    text-align: center !important;
+  }
+  .choosebg {
+    align-items: center;
+  }
+  .chooseaim {
+    display: flex;
+    border-bottom: 1px dashed #a9a9a9 !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chooseaim:nth-child(2),
+  .chooseaim:nth-child(4),
+  .chooseaim:nth-child(6) {
+    border-right: none !important;
+  }
+  .chooseaim:nth-child(4) {
+    border-bottom: 1px dashed #a9a9a9 !important;
+  }
+  .chooseaim:nth-child(3) {
+    border-right: 1px dashed #a9a9a9 !important;
+  }
+  .main_padding,
+  .main_padding1 {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+
+  .whychosemain1 {
+    padding-left: 0% !important;
+  }
+
+  .bannerinfo {
+    text-align: center;
+  }
+
+  .impactps {
+    margin-top: 20px !important;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center !important;
+  }
+  .main_padding1 {
+    padding-left: 0% !important;
+  }
+  .bannerAdjust {
+    padding: 0 20px 20px 20px !important;
+  }
+  .pinkbgs {
+    padding: 30px 10px 0px 0px;
+  }
+
+  .delwares {
+    padding-left: 0%;
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1365px) {
+  .PARTNER {
+    padding: 21px;
+  }
+
+  .main_padding,
+  .main_padding1 {
+    padding-left: 2% !important;
+    padding-right: 0% !important;
+  }
+
+  .main_padding1 {
+    font-size: 32px !important;
+    text-align: left;
+  }
+
+  .impactps {
+    font-size: 14px;
+    line-height: 21px;
+    color: #6a6a6a;
+  }
+  .main_padding1 {
+    padding-left: 2% !important;
+  }
+  .delwares {
+    width: 95% !important;
+    height: 590px;
+  }
+
+  .bannerAdjust {
+    padding-bottom: 40px !important;
+  }
+
+  .pinkbgs {
+    padding: 40px 10px 0px;
+  }
+
+  .WhyChooseUS {
+    margin-bottom: 40px;
+    padding: 0 40px;
+  }
+
+  .container_back h6 {
+    font-size: 52px !important;
+    padding-bottom: 5px !important;
+  }
+
+  .services img {
+    width: 94% !important;
+    height: 62% !important;
+  }
+  .choosebg h4 {
+    font-size: 18px !important;
+  }
+
+  .imgBox img {
+    width: 80% !important;
+    height: 67% !important;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1440px) {
+  .impactps {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .delwares {
+    width: 95% !important;
+    height: 590px;
+  }
+  .choosebg h4 {
+    font-size: 18px !important;
+  }
+
+  .main_padding,
+  .main_padding1 {
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1700px) {
+  .impactps {
+    font-size: 17px;
+    line-height: 29px;
+    color: #6a6a6a;
+  }
+  .topdjust {
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1679px) {
+  .delwares {
+    height: 740px;
+  }
+}
+@media (min-width: 1679px) and (max-width: 1700px) {
+  .delwares {
+    height: 715px;
+  }
+}
+@media (min-width: 1700px) and (max-width: 1800px) {
+  .bannerAdjust {
+    padding: 0 30px !important;
+  }
+
+  .impactps {
+    font-size: 19px;
+    line-height: 27px;
+    color: #6a6a6a;
+  }
+}
+@media (max-width: 560px) {
+  .main_img {
+    display: none;
+  }
+}

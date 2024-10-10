@@ -1,0 +1,719 @@
+/** @format */
+
+.bodyColor {
+  width: auto;
+  height: auto;
+  background: #e6edf7;
+  background-repeat: repeat;
+  background-size: initial;
+  background-position: top center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  animation: background 90s linear infinite;
+  margin-top: -6px;
+}
+
+@keyframes background {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  50% {
+    background-position: 100% 100%;
+  }
+
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+/* here is the  css of tabs */
+.navhead {
+  width: 100% !important;
+  display: flex;
+  padding-bottom: 15px;
+  border-bottom: 3px solid grey;
+  align-items: center;
+  justify-content: center;
+}
+
+.navdetail {
+  width: 16%;
+  font-size: 25px;
+  text-align: center;
+}
+.navdetail:nth-child(1),
+.navdetail:last-child {
+  width: 10%;
+}
+.navdetail:nth-child(4),
+.navdetail:nth-child(5) {
+  width: 20%;
+}
+.navlink {
+  margin: 0;
+  color: black !important;
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 5px solid #f2b721;
+  text-align: center;
+}
+
+.navlink:hover {
+  color: #f2b721 !important;
+  border: none !important;
+}
+
+.navlink:focus {
+  color: #f2b721 !important;
+  border-bottom: 5px solid #f2b721;
+}
+
+.mainHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainHeading h1 {
+  font-size: 41px !important;
+}
+
+.mainHeading h1 span {
+  font-size: 41px !important;
+}
+
+.mainHeading p {
+  color: black;
+  line-height: 26px !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  padding: 0 !important;
+}
+
+.mainHeadingport {
+  padding: 32px 10px;
+  height: 365px;
+  margin: 6px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* here is the new css of portfolio */
+
+.portfoliobg {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: top !important;
+  min-height: 700px;
+  margin: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.portfolifrntdetial {
+  display: flex;
+  text-align: start !important;
+  flex-direction: column !important;
+  align-content: flex-start !important;
+  justify-content: flex-end !important;
+}
+
+.portfolio {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+
+.portfoliabsult {
+  opacity: 0;
+  top: 8px;
+  position: absolute;
+  display: flex;
+  transform: scaleX(1);
+}
+
+.portfoliinertext {
+  width: 55%;
+  margin-right: 20px !important;
+  display: flex;
+  justify-content: flex-start;
+  /* margin-bottom: 100px !important; */
+  margin-left: 31px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.portbutton {
+  background: #0a58ca;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px !important;
+  margin: 5px;
+}
+
+.portbutton:hover {
+  cursor: text;
+}
+
+.portfoliinnerimg {
+  display: flex;
+  width: 45%;
+  justify-content: flex-end;
+}
+
+.portbutton:hover {
+  background: #f2b721;
+}
+
+.portfoliinertext p {
+  color: white;
+  font-size: 16px !important;
+  line-height: 19px;
+  font-weight: 200 !important;
+  text-align: start !important;
+}
+
+.portfoliinertext h3 {
+  text-transform: uppercase !important;
+  font-size: 23px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.05em;
+  text-align: start !important;
+  color: #f2b721 !important;
+}
+
+.portfoliabsult:hover {
+  opacity: 1;
+  border: none !important;
+  margin: 10px 0px 15px 15px !important;
+  height: 672px;
+  transition: 0.7s;
+  transform: scaleX(1);
+}
+
+.portfoliabsult:hover .portfoliinertext {
+  -webkit-transform: perspective(300px) rotateY(9deg) translate3d(0, 0, 0);
+  transform: perspective(672px) rotateY(4deg) translate3d(0, 0, 0);
+}
+
+.portfoliabsult:hover .portfolifrntdetial {
+  opacity: 0;
+}
+
+.portfolio:hover .portfoliobg {
+  background-size: cover !important;
+  background-position: top right;
+  background-color: #000000 !important;
+  background-image: none;
+  transition: 0.8s;
+  transform: perspective(672px) rotateY(4deg) translate3d(0, 0, 0);
+}
+
+.portfolio:hover .porthover:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  opacity: 0.7;
+  transition: opacity 0.7s ease-in-out;
+}
+
+.portfolio:hover {
+  box-shadow: none !important;
+}
+
+/* mobile tab csss start*/
+
+.mobiletab {
+  display: none !important;
+}
+
+.portfoliomobi {
+  background-image: url(https://vcana-website-assets.s3.amazonaws.com/images/portfolio/poerfolioa.webp);
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  min-height: 450px;
+  margin: 50px 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.portfolio:hover .portfoliomobi {
+  background-image: url(https://vcana-website-assets.s3.amazonaws.com/images/portfolio/portfoliomobi.webp);
+  background-color: #00000080;
+  transition: 0.4s;
+}
+
+.portfoliabsultmobi {
+  opacity: 0;
+  width: 91%;
+  top: 0px;
+  position: absolute;
+  display: flex;
+  transform: scaleX(0.9);
+}
+
+.portfolio:hover .portfoliabsultmobi {
+  opacity: 1;
+  margin: 0px 20px 03px 0px !important;
+  height: 500px;
+  transition: 0.4s;
+  transform: scaleX(1);
+}
+
+/* mobile tab csss start*/
+
+/* media query start*/
+
+@media (max-width: 767px) {
+  .portfoliinnerimg {
+    display: none;
+  }
+
+  .bodyColor {
+    padding: 20px 15px;
+  }
+
+  .portfoliinertext {
+    width: 90%;
+    margin: auto;
+  }
+
+  .portfoliomobi {
+    margin: 30px 0px !important;
+  }
+
+  .desktop {
+    display: none !important;
+  }
+
+  .mobiletab {
+    display: block !important;
+  }
+
+  .loadingprot {
+    width: 395px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    min-height: 590px;
+    margin-top: 40px;
+  }
+
+  .portbutton {
+    min-width: 43px !important;
+    font-size: 10px !important;
+    margin: 5px;
+  }
+
+  .portfoliinertext p {
+    font-size: 14px !important;
+    line-height: 23px;
+  }
+
+  .portfoliabsultmobi:hover {
+    width: 100%;
+    height: 450px !important;
+    background: #0000008c;
+    margin: 0px 20px 3px 1px !important;
+  }
+
+  .tabsmenu {
+    display: none;
+  }
+
+  .mainHeading h1 {
+    font-size: 29px !important;
+  }
+
+  .mainHeading p {
+    font-size: 15px !important;
+  }
+
+  .mainHeading h1 span {
+    font-size: 29px !important;
+  }
+
+  .portfoliinertext h3 {
+    font-size: 17px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 920px) {
+  .portfoliinnerimg {
+    display: none;
+  }
+  .navdetail {
+    width: 25%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .navdetail:nth-child(1),
+  .navdetail:last-child {
+    width: 10%;
+  }
+  .navdetail:nth-child(4),
+  .navdetail:nth-child(5) {
+    width: 34%;
+  }
+  .loadingprot {
+    width: 344px !important;
+    margin: 50px 20px !important;
+  }
+  .portfoliomobi {
+    margin-bottom: 0px;
+    background-size: contain !important;
+    min-height: 400px;
+  }
+  .portfolio:hover .portfoliabsultmobi {
+    opacity: 1;
+    margin: 0px 0px 03px 18px !important;
+    height: 500px;
+    transition: 0.4s;
+    transform: scaleX(1);
+  }
+
+  .portfoliinertext p {
+    font-size: 13px !important;
+  }
+
+  .portfoliinertext h3 {
+    font-size: 17px !important;
+  }
+
+  .btnhover {
+    font-size: 12px;
+  }
+
+  .portfoliinertext {
+    width: 92%;
+    justify-content: center !important;
+    margin: 0 auto !important;
+  }
+
+  .portfoliabsultmobi:hover {
+    height: 400px !important;
+    top: 50px;
+    background: #0000008c;
+  }
+
+  .desktop {
+    display: none !important;
+  }
+
+  .mobiletab {
+    margin: 0px !important;
+    display: flex !important;
+  }
+
+  /* .tabsmenu {
+    display: none !important;
+  } */
+
+  .mainHeading p {
+    margin: 0px !important;
+  }
+
+  .bodyColor {
+    padding: 30px 0px 30px 0px;
+  }
+
+  /* .tabsmenu {
+    display: none !important;
+  } */
+}
+
+@media (min-width: 921px) and (max-width: 1024px) {
+  .portfoliinnerimg {
+    display: none;
+  }
+
+  .loadingprot {
+    width: 421px !important;
+    margin: 30px 20px !important;
+  }
+  .portfoliabsultmobi:hover {
+    height: 540px !important;
+  }
+  .portfoliomobi {
+    min-height: 540px !important;
+  }
+  .portfolio:hover .portfoliabsultmobi {
+    opacity: 1;
+    margin: 0px 0px 03px 18px !important;
+    height: 540px !important;
+    width: 93% !important;
+    transition: 0.4s;
+    transform: scaleX(1);
+  }
+
+  .portfoliinertext p {
+    font-size: 13px !important;
+  }
+
+  .portfoliinertext h3 {
+    font-size: 17px !important;
+  }
+
+  .btnhover {
+    font-size: 12px;
+  }
+
+  .portfoliinertext {
+    width: 92%;
+    justify-content: center !important;
+    margin: 0 auto !important;
+  }
+
+  .portfoliabsultmobi:hover {
+    height: 450px !important;
+    top: 50px;
+    background: #0000008c;
+  }
+
+  .desktop {
+    display: none !important;
+  }
+
+  .mobiletab {
+    margin: 0px !important;
+    display: flex !important;
+  }
+
+  .navdetail {
+    width: 25%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .navdetail:nth-child(1),
+  .navdetail:last-child {
+    width: 10%;
+  }
+  .navdetail:nth-child(4),
+  .navdetail:nth-child(5) {
+    width: 34%;
+  }
+  .mainHeading p {
+    margin: 0px !important;
+  }
+
+  .bodyColor {
+    padding: 30px 0px 30px 0px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .portfoliinnerimg {
+    display: none;
+  }
+
+  .loadingprot {
+    width: 430px !important;
+    margin: 30px 20px !important;
+  }
+  .portfoliomobi {
+    min-height: 550px !important;
+  }
+  .portfolio:hover .portfoliabsultmobi {
+    opacity: 1;
+    margin: 0px 0px 03px 18px !important;
+    height: 550px !important;
+    width: 93% !important;
+    transition: 0.4s;
+    transform: scaleX(1);
+  }
+
+  .portfoliinertext p {
+    font-size: 13px !important;
+  }
+
+  .portfoliinertext h3 {
+    font-size: 17px !important;
+  }
+
+  .btnhover {
+    font-size: 12px;
+  }
+
+  .portfoliinertext {
+    width: 92%;
+    justify-content: center !important;
+    margin: 0 auto !important;
+  }
+
+  .portfoliabsultmobi:hover {
+    height: 450px !important;
+    top: 50px;
+    background: #0000008c;
+  }
+
+  .desktop {
+    display: none !important;
+  }
+
+  .mobiletab {
+    margin: 0px !important;
+    display: flex !important;
+  }
+
+  .navdetail {
+    width: 25%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .navdetail:nth-child(1),
+  .navdetail:last-child {
+    width: 15%;
+  }
+  .navdetail:nth-child(4),
+  .navdetail:nth-child(5) {
+    width: 34%;
+  }
+
+  .mainHeading p {
+    margin: 0px !important;
+  }
+
+  .bodyColor {
+    padding: 30px 0px 30px 0px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1365px) {
+  .loadingprot {
+    width: 510px !important;
+    margin: 30px !important;
+  }
+
+  .boxwidth {
+    min-width: 50% !important;
+  }
+
+  .portfoliinertext {
+    width: 65% !important;
+  }
+
+  .portbutton {
+    min-width: 45px !important;
+  }
+
+  .navdetail {
+    width: 16%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .navdetail:nth-child(1),
+  .navdetail:last-child {
+    width: 5%;
+  }
+  .navdetail:nth-child(4),
+  .navdetail:nth-child(5) {
+    width: 21%;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1439px) {
+  .portfoliobg {
+    background-size: contain !important;
+    min-height: 590px;
+  }
+  .portfoliabsult:hover {
+    height: 590px;
+  }
+  .portfoliinnerimg img {
+    width: 260px !important;
+  }
+  .portfoliinnerimg img {
+    width: 260px !important;
+    height: 620px;
+  }
+
+  .loadingprot {
+    width: 510px !important;
+    margin: 30px !important;
+  }
+
+  .boxwidth {
+    min-width: 50% !important;
+  }
+
+  .portfoliinertext {
+    width: 65% !important;
+  }
+
+  .portbutton {
+    min-width: 45px !important;
+  }
+
+  .navlink {
+    margin: 0 0px !important;
+    font-size: 14px !important;
+  }
+
+  .navdetail {
+    width: 15% !important;
+  }
+}
+
+/* here is the css of all btn */
+
+.btnhover:hover {
+  background-color: #f2b721 !important;
+}
+
+.btnhover {
+  font-size: 11px !important;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: #f2b721 !important;
+  border: #f2b721 !important;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.btnhover:hover:after {
+  left: 5% !important;
+  width: 90% !important;
+  transform: skewX(25deg) !important;
+}
+
+.btnhover:after {
+  background-color: #223f92;
+  content: "";
+  height: 100% !important;
+  left: 50% !important;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  transform: skewX(0) !important;
+  transition: all 0.1s ease 0s !important;
+  width: 0;
+  z-index: -1;
+  -webkit-transition: all 0.1s ease 0s !important;
+  -moz-transition: all 0.1s ease 0s !important;
+  -ms-transition: all 0.1s ease 0s !important;
+  -o-transition: all 0.1s ease 0s !important;
+  -webkit-transform: skewX(0) !important;
+  -moz-transform: skewX(0) !important;
+  -ms-transform: skewX(0) !important;
+  -o-transform: skewX(0) !important;
+}
+
+/* skelton csss start */
+.loadingprot {
+  width: 600px;
+  margin-left: 30px;
+  margin-right: 30px;
+  min-height: 590px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

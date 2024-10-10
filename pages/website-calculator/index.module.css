@@ -1,0 +1,521 @@
+.main_backg {
+  background-image: url(https://vcana-website-assets.s3.amazonaws.com/images/BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* overflow-y: scroll;
+  height: calc(100vh); */
+  /* scrollbar-width: thin;
+  scrollbar-color: #dbe8ee #deeef6; */
+}
+
+.backg {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.pages_header {
+  list-style: none;
+  line-height: 38px;
+  color: #888888;
+  padding: 14px 0 !important;
+}
+
+.accText {
+  box-shadow: rgb(188 189 189 / 0%) 0px 7px 13px 0px;
+}
+
+.accordionB {
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+  border-top: 1px solid #cdcdcd;
+  padding: 0;
+}
+
+.hr {
+  margin: 0 !important;
+}
+
+.lastrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-style: dotted;
+  border-width: 0px 0px 1px 0px;
+  width: 100%;
+  padding-top: 12px !important;
+  font-size: 14px;
+}
+
+.pagesize {
+  width: 100%;
+  border: none;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  text-align: center;
+  height: 30px;
+}
+
+.circleIcon {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.dropHeader {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 0px;
+  line-height: 37.5px;
+}
+
+.chooseHeading {
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  line-height: 45px;
+  padding-bottom: 20px;
+  color: black !important;
+  text-align: start;
+  letter-spacing: 0;
+}
+
+.pagecost {
+  color: #f2b721 !important;
+  font-size: 12px;
+}
+
+.listOfDropdown {
+  border-style: dotted;
+  border-width: 0px 0px 1px 0px;
+  width: 90%;
+  border-color: #888888;
+  font-size: 14px !important;
+}
+
+.listTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.categoryTop {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+#dropdownrow {
+  width: 100%;
+  font-size: 16px;
+  color: #6d6d6d;
+  background-color: white;
+  padding: 20px 50px !important;
+  border: none;
+  margin-top: -20px !important;
+  margin-bottom: 20px !important;
+}
+
+/* .radiobtnn {
+  position: relative;
+  top: 10px;
+} */
+
+#submitButton {
+  padding: 0px 20px;
+  font-size: 14px !important;
+  border-radius: 7px;
+  background-color: #f2b721;
+}
+
+.peviousButton {
+  border: 1px solid #f2b721;
+  border-radius: 7px;
+  padding: 8px 20px;
+  font-size: 14px;
+  color: #f2b721;
+  text-align: center;
+  background-color: white;
+}
+
+.formSection {
+  border-radius: 6px;
+  padding: 2rem 8rem !important;
+  margin-bottom: 40px;
+  background-color: #ffffff;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.pagesSpan {
+  width: 25%;
+}
+
+.logoWidth {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.options {
+  width: 50%;
+}
+
+.accHeader,
+.textareas {
+  background-color: white !important;
+  border-radius: 10px;
+  padding: 0 32px;
+  border: none;
+  box-shadow: rgba(153, 153, 153, 0.2) 0px 2px 8px 0px;
+}
+
+.accHeader::placeholder,
+.textareas::placeholder {
+  color: #c5c4c4 !important;
+  font-size: 13px !important;
+}
+
+.finalPrice {
+  border: 1px solid #223f93;
+  border-width: 0px 0px 3px 0px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #f2b721;
+}
+
+.phoneIpt {
+  padding: 15px !important;
+  border-radius: 10px !important;
+  box-shadow: rgba(153, 153, 153, 0.2) 0px 2px 8px 0px;
+}
+
+.headcost {
+  font-size: 36px !important;
+  color: #223f93 !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.inputRadio {
+  height: 16px !important;
+  width: 16px !important;
+  margin-right: 10px;
+}
+
+.quoteBtn {
+}
+
+.quoteButton {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #f2b721;
+  padding: 10px;
+  color: #f2b721;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.quote_section {
+  padding-bottom: 7rem;
+  padding-top: 2rem;
+}
+
+.brand {
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.custom {
+  padding-top: 15px;
+}
+
+.headGrow {
+  font-size: 36px;
+  color: #223f93 !important;
+  padding-bottom: 22px;
+}
+
+.estimate {
+  color: #213e92;
+  line-height: 40px;
+  text-align: center;
+}
+
+.website_thnx {
+  color: #213e92;
+  line-height: 18.5px;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 12px;
+}
+
+.pageInput {
+  gap: 10px;
+  justify-content: space-between !important;
+}
+
+.cmsborder {
+  color: black;
+  width: 70%;
+  border-style: dotted;
+  border-width: 0px 0px 1px 0px;
+}
+
+#inputNum {
+  height: 16px;
+  width: 16px;
+}
+
+#addFeature {
+  padding: 0 30px 0 20px;
+}
+
+.pageGap {
+  gap: 15px;
+}
+
+#inputWidth {
+  width: 32%;
+  justify-content: end !important;
+}
+
+.sbmt {
+  text-align: end;
+}
+
+#scrollbarCat {
+  height: 30vh;
+  overflow: overlay;
+  overflow-y: scroll;
+  scrollbar-color: #f8ac1a #ffdc99;
+  scrollbar-width: thin;
+}
+
+#multiLang {
+  padding: 15px 50px 15px 40px;
+}
+
+#webHeading {
+  text-align: left;
+  font-size: 15px;
+}
+
+.strong {
+  color: #213e92;
+}
+
+.priceRow {
+  gap: 36px;
+}
+
+.ImpMess {
+  color: red;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#submitBtn {
+  padding: 0 20px;
+  font-size: 14px;
+  background-color: #f2b721 !important;
+  margin: 0;
+}
+
+.customPassage {
+  color: #3d3d3d;
+  font-weight: 600;
+  padding-right: 2rem;
+}
+
+#alignLeft {
+  text-align: left;
+}
+
+.modal_section {
+  text-align: center;
+  background-color: #edededdd;
+}
+
+.homeButton {
+  border: 1px solid #f2b721;
+  border-radius: 7px;
+  padding: 8px 20px;
+  font-size: 14px;
+  color: #f2b721;
+  text-align: center;
+  background-color: white;
+}
+
+.fullScreenModal {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto !important;
+  max-width: 60% !important;
+  height: calc(100vh);
+}
+
+.fullScreenModal .modal-dialog {
+  width: 100%;
+  max-width: 100% !important;
+  height: 100%;
+  margin: 0;
+}
+
+#graphInputWidth {
+  width: 32%;
+}
+
+.andone {
+  font-size: 13px;
+}
+
+.modal_section img {
+  width: 250px;
+  height: 150px;
+}
+
+.pagesFeature {
+  width: 25%;
+}
+
+.prefered_cms {
+  opacity: 0;
+  animation: fadeIn 1s ease-in both;
+}
+
+.additionalLine {
+  text-align: start;
+  font-size: 14px !important;
+  width: 100%;
+  margin: 0;
+  color: #6a6a6a;
+}
+
+.additionalLineCms {
+  text-align: start;
+  font-size: 12px !important;
+  width: 100%;
+  margin: 0;
+  color: #f2b721;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .textareas {
+    padding: 15px !important;
+  }
+  .fullScreenModal {
+    max-width: 100% !important;
+  }
+  .phoneColumn {
+    margin-top: -40px;
+  }
+  #graphInputWidth {
+    /* width: 100%; */
+    justify-content: end !important;
+  }
+  .brand {
+    padding: 20px 30px !important;
+  }
+  #inputWidth {
+    /* width: 100%; */
+    justify-content: end !important;
+  }
+  .pagesSpan {
+    width: 30%;
+  }
+  .pagesFeature {
+    width: 100%;
+  }
+  .listOfDropdown {
+    gap: 10px;
+  }
+  .accHeader {
+    padding: 0px !important;
+  }
+  #pricingInput {
+    padding: 15px !important;
+  }
+  #multiLang {
+    display: block !important;
+    padding: 15px !important;
+  }
+  #submitButton {
+    font-size: 12px !important;
+    line-height: 30px !important;
+  }
+  #submitBtn {
+    font-size: 14px !important;
+  }
+  #dropdownrow {
+    padding: 10px 20px !important;
+    display: flex;
+    font-size: 12px;
+  }
+  .customPassage {
+    padding: 0;
+  }
+  .quoteButton {
+    width: 100%;
+    font-size: 12px;
+  }
+  .headGrow {
+    font-size: 22px;
+  }
+  .quote_section {
+    margin: 0 30px;
+  }
+  .pagesize {
+    width: 100%;
+  }
+  .backg,
+  .dropHeader {
+    line-height: 22px;
+    font-size: 15px !important;
+  }
+  #pricingBtn {
+    display: grid !important;
+    gap: 15px;
+  }
+  #submit_btn {
+    font-size: 12px !important;
+    line-height: 32px !important;
+  }
+  .sbmt {
+    text-align: start !important;
+  }
+  .lastrow {
+    display: grid;
+  }
+  .pagesGrpc {
+    width: 100%;
+  }
+  .logoWidth,
+  .options,
+  .cmsborder {
+    width: 100%;
+  }
+  .formSection {
+    padding: 2rem !important;
+  }
+  .phoneIpt {
+    padding: 0 12px !important;
+  }
+  .inputRadio {
+    margin-right: 10px;
+  }
+}

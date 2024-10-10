@@ -1,0 +1,44 @@
+.main_services {
+  padding-top: 50px;
+}
+
+.siderbarmargin {
+  margin-right: 10px;
+}
+.mainlayout {
+  padding-left: 0% !important;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .leftaout {
+    width: 35% !important;
+    display: none;
+  }
+  .mainlayout {
+    padding-left: 0px !important;
+  }
+}
+@media (max-width: 768px) {
+  .main_services {
+    padding-top: 0px;
+  }
+  .siderbarmargin {
+    margin-right: 0px;
+  }
+  .mainlayout {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+}
+
+@media (min-width: 1024) {
+  .leftaout {
+    width: 39% !important;
+    display: block;
+  }
+
+  .mainlayout {
+    padding-left: 0px !important;
+    width: 60%;
+  }
+}
